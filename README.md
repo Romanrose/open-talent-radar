@@ -11,6 +11,7 @@ Open Talent Radar is a GitHub-native, privacy-friendly command-line tool for stu
 - Generates a Markdown radar report that is easy to review in GitHub.
 - Creates a focused learning checklist and an application record for any opportunity.
 - Refreshes the committed report on a weekly GitHub Actions schedule.
+- Monitors official program pages for change signals, while keeping every catalog update human-reviewed.
 
 ## Quick start
 
@@ -29,9 +30,12 @@ oss-radar --profile profile.json match
 oss-radar --profile profile.json report
 oss-radar --profile profile.json learn mindspore-internship
 oss-radar --profile profile.json track casbin-talent
+oss-radar sync
 ```
 
 You can always replace `oss-radar` with `python -m radar.cli` when you do not want to install the package.
+
+`oss-radar sync` stores a content-hash snapshot of official source pages in `data/source-state.json` and writes `reports/source-monitor.md`. It detects pages that need a human review; it deliberately does **not** scrape arbitrary page text into unverified opportunities.
 
 The generated files live in `reports/`, `learning/`, and `applications/`. Commit them or turn their action items into GitHub Issues.
 
@@ -88,6 +92,8 @@ The score combines skill overlap, interest overlap, mentor availability, remote 
 2. Prefer official program pages and include only verifiable claims.
 3. Run `python -m unittest discover -s tests` and regenerate `reports/latest.md`.
 4. Open a pull request with the source link and the program’s last verified date in the description.
+
+The weekly workflow runs both the source monitor and the example report. It commits source-state changes and the monitor report so maintainers can review the exact pages that changed.
 
 ## Roadmap
 

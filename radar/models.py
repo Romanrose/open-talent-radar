@@ -22,6 +22,9 @@ class Opportunity:
     difficulty: str = "medium"
     summary: str = ""
     source: str = "community"
+    eligibility: str = ""
+    graduation_years: list[int] = field(default_factory=list)
+    last_verified: str | None = None
 
     @classmethod
     def from_dict(cls, raw: dict[str, Any]) -> "Opportunity":

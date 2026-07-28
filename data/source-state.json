@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-28T16:08:32+00:00",
+  "sources": {
+    "alibaba-youth-open-source-fund": {
+      "name": "Youth Open Source Special Fund: Seed Program",
+      "url": "https://developer.aliyun.com/article/1746947",
+      "checked_at": "2026-07-28T16:08:32+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "e59e550f3a3609333a69545ef2f67cc00e0c160cd4be40607378ecadf4eef1c6"
+    },
+    "bytedance-seed-internship": {
+      "name": "ByteDance Seed Foundation Model Internship",
+      "url": "https://seed.bytedance.com/zh/seedearlycareer",
+      "checked_at": "2026-07-28T16:08:32+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "4a45db8bbaeee668de02a656c9d069fd8880e5d1059161472f1cfd9d03f799b5"
+    },
+    "casbin-talent": {
+      "name": "Casbin Talent 2026",
+      "url": "https://github.com/casbin/Talent2026",
+      "checked_at": "2026-07-28T16:08:32+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "6771761f7ec34214cb3156f10527259eeefab69d6ca227934cfac2e567386c2a"
+    },
+    "mindspore-internship": {
+      "name": "MindSpore Open Source Internship",
+      "url": "https://www.mindspore.cn/internship",
+      "checked_at": "2026-07-28T16:08:32+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "8af140763ea95d716533e12a6b9d84adc11804a82c536716448b086436eaea0e"
+    },
+    "oceanbase-ai-ecosystem": {
+      "name": "OceanBase AI Ecosystem Internship",
+      "url": "https://ask.oceanbase.com/t/topic/35645128",
+      "checked_at": "2026-07-28T16:08:32+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "ef5fc5579f522bcacfd714370d62db9341f77894d153abd4dd49ba88048b06fa"
+    },
+    "openatom-competition": {
+      "name": "OpenAtom Open Source Competition 2026",
+      "url": "https://competition.openatom.tech/",
+      "checked_at": "2026-07-28T16:08:32+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "5dfbdcefb1443dee5e04d22cf4be3e887cd13b4263212f682cf0452503ba9cdb"
+    },
+    "opengauss-community": {
+      "name": "openEuler & openGauss Community Internship",
+      "url": "https://edu.hicomputing.huawei.com/openeuler-opengauss-talent",
+      "checked_at": "2026-07-28T16:08:32+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "115d641e14942053c483d48e3cca3c29f5046aac59ca1098cb9a3fda49616cee"
+    },
+    "ospp": {
+      "name": "Open Source Promotion Plan",
+      "url": "https://summer-ospp.ac.cn/",
+      "checked_at": "2026-07-28T16:08:32+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "2ddadd21ccc3b437f336e4cab1669a89aca8f6fddc6007c6434ea7c72c565a67"
+    },
+    "paddle-hackathon": {
+      "name": "PaddlePaddle Hackathon",
+      "url": "https://www.paddlepaddle.org.cn/documentation/docs/zh/guides/10_contribution/hackathon_cn.html",
+      "checked_at": "2026-07-28T16:08:32+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "65dccc59978f640b9cc22b47e71f3547ef85f02fb915fc97acbca3fa4317851f"
+    },
+    "tencent-rhinobird": {
+      "name": "Tencent Rhino-Bird Open Source Talent Program",
+      "url": "https://opensource.tencent.com/summer-of-code",
+      "checked_at": "2026-07-28T16:08:32+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "7a1e73b483960177da0a157f9b3b5bd3b0127cd02c4ca535953ad461fad85148"
+    }
+  }
+}

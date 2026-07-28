@@ -58,6 +58,10 @@ def match(profile: Profile, opportunity: Opportunity, today: date | None = None)
     elif opportunity.status == "watch":
         score -= 10
         notes.append("Watch for the next intake")
+    graduation_year = profile.education.get("graduation_year")
+    if opportunity.graduation_years and graduation_year not in opportunity.graduation_years:
+        score -= 35
+        notes.append(f"Expected graduation year {graduation_year} is not listed as eligible")
     if opportunity.parsed_deadline:
         days = (opportunity.parsed_deadline - today).days
         if 0 <= days <= 14:

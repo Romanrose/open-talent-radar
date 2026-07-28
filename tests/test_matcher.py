@@ -10,6 +10,7 @@ class MatcherTests(unittest.TestCase):
         self.profile = Profile.from_dict(
             {
                 "name": "Ada",
+                "education": {"graduation_year": 2028},
                 "skills": {"strong": ["Python", "Git"], "familiar": ["RAG"]},
                 "interests": ["AI Agents", "Open Source"],
                 "preferences": {"mentorship": True, "remote": True},
@@ -56,6 +57,11 @@ class MatcherTests(unittest.TestCase):
         weak = Opportunity.from_dict({"slug": "weak", "name": "Weak", "organization": "O", "kind": "x", "url": "https://x", "status": "watch", "skills": ["Rust", "Kubernetes"]})
         results = rank(self.profile, [weak, strong])
         self.assertEqual(results[0].opportunity.slug, "strong")
+
+    def test_ineligible_graduation_year_is_explained(self):
+        opportunity = Opportunity.from_dict({"slug": "graduate", "name": "Graduate", "organization": "O", "kind": "x", "url": "https://x", "status": "open", "graduation_years": [2027], "skills": ["Python"]})
+        result = match(self.profile, opportunity, today=date(2026, 7, 28))
+        self.assertIn("Expected graduation year 2028 is not listed as eligible", result.fit_notes)
 
 
 if __name__ == "__main__":

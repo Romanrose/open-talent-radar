@@ -1,0 +1,19 @@
+{
+  "slug": "bytedance-seed-internship",
+  "name": "ByteDance Seed Foundation Model Internship",
+  "organization": "ByteDance Seed",
+  "kind": "research_internship",
+  "url": "https://seed.bytedance.com/zh/seedearlycareer",
+  "status": "open",
+  "deadline": null,
+  "mentorship": false,
+  "remote": false,
+  "reward": "Research internship and frontier model engineering experience",
+  "skills": ["LLM", "LLM Infrastructure", "AI Agents", "Coding Agents", "Multimodal Learning", "Model Evaluation", "C++", "Python"],
+  "interests": ["AI Agents", "Coding Agents", "Multimodal Learning", "ML Systems", "LLM Infrastructure"],
+  "difficulty": "hard",
+  "summary": "Campus research internship across foundation models, Code Agent RL, multimodal models, training systems, and inference infrastructure. This is a company recruitment program, not an open-source mentorship program.",
+  "source": "official",
+  "eligibility": "Internship intake is for university students graduating in September 2027 or later.",
+  "last_verified": "2026-07-29"
+}

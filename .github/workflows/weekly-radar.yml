@@ -17,9 +17,11 @@ jobs:
         with:
           python-version: "3.11"
       - name: Generate report
-        run: python -m radar.cli --profile profile.example.json report --output reports/latest.md
+        run: |
+          python -m radar.cli sync --state data/source-state.json --output reports/source-monitor.md
+          python -m radar.cli --profile profile.example.json report --output reports/latest.md
       - name: Commit refreshed report
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh weekly radar report"
-          file_pattern: reports/latest.md
+          file_pattern: reports/latest.md reports/source-monitor.md data/source-state.json

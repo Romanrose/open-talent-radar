@@ -1,0 +1,19 @@
+{
+  "slug": "alibaba-youth-open-source-fund",
+  "name": "Youth Open Source Special Fund: Seed Program",
+  "organization": "Alibaba Cloud Developer Community and ecosystem partners",
+  "kind": "open_source_grant",
+  "url": "https://developer.aliyun.com/article/1746947",
+  "status": "verify",
+  "deadline": null,
+  "mentorship": false,
+  "remote": true,
+  "reward": "Project funding for qualified open-source teams",
+  "skills": ["Git", "LLM", "AI Agents", "LLM Infrastructure", "Cloud Native"],
+  "interests": ["Open Source", "AI Infrastructure", "AI Agents", "Developer Tools"],
+  "difficulty": "hard",
+  "summary": "Funding-oriented program for small teams with an existing, OSI-licensed open-source project. It is not a guaranteed one-to-one mentor program.",
+  "source": "official_community",
+  "eligibility": "Requires a qualifying existing open-source project; verify the current round, deadlines, and license requirements before applying.",
+  "last_verified": "2026-07-29"
+}
