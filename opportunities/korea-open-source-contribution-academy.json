@@ -1,0 +1,19 @@
+{
+  "slug": "korea-open-source-contribution-academy",
+  "name": "Korea Open Source Contribution Academy",
+  "organization": "Open UP / NIPA, Republic of Korea",
+  "kind": "open_source_mentorship",
+  "url": "https://www.contribution.ac/2026ossca",
+  "status": "watch",
+  "deadline": null,
+  "mentorship": true,
+  "remote": false,
+  "reward": "13-week mentor-led contribution program and project awards",
+  "skills": ["Python", "C++", "Git", "Cloud Native", "AI Agents"],
+  "interests": ["Open Source", "Developer Tools", "AI Infrastructure"],
+  "difficulty": "medium",
+  "summary": "Korea's annual mentor-led open-source contribution academy. The 2026 mentees were selected in June and the current cohort is in progress.",
+  "source": "official",
+  "eligibility": "Verify residency, language, and next-cycle participation rules; the currently advertised cohort is already underway.",
+  "last_verified": "2026-07-29"
+}

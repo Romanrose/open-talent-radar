@@ -1,0 +1,19 @@
+{
+  "slug": "linux-foundation-lfx",
+  "name": "Linux Foundation LFX Mentorship",
+  "organization": "Linux Foundation",
+  "kind": "open_source_mentorship",
+  "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
+  "status": "verify",
+  "deadline": null,
+  "mentorship": true,
+  "remote": true,
+  "reward": "Structured mentoring and project-dependent stipend",
+  "skills": ["C++", "Python", "Git", "Cloud Native", "Distributed Systems", "LLM Infrastructure"],
+  "interests": ["Open Source", "ML Systems", "AI Infrastructure", "Developer Tools"],
+  "difficulty": "hard",
+  "summary": "Global mentorship platform spanning CNCF, Linux Kernel, RISC-V, networking, and other open-source foundations. Fall opportunities are typically listed around mid-July.",
+  "source": "official",
+  "eligibility": "Create a mentee profile and verify each project's country, schedule, and payment eligibility before applying.",
+  "last_verified": "2026-07-29"
+}

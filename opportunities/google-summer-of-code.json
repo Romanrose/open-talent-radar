@@ -1,0 +1,19 @@
+{
+  "slug": "google-summer-of-code",
+  "name": "Google Summer of Code",
+  "organization": "Google Open Source",
+  "kind": "open_source_mentorship",
+  "url": "https://developers.google.com/open-source/gsoc",
+  "status": "watch",
+  "deadline": null,
+  "mentorship": true,
+  "remote": true,
+  "reward": "Stipend and 8–22 week mentored open-source project",
+  "skills": ["Python", "C++", "Git", "AI Agents", "Coding Agents", "LLM Infrastructure"],
+  "interests": ["Open Source", "AI Agents", "Developer Tools", "Multimodal Learning"],
+  "difficulty": "hard",
+  "summary": "Global online program matching new open-source contributors with organizations and experienced mentors. The annual contributor application window is earlier in the year.",
+  "source": "official",
+  "eligibility": "At least 18, able to work in country of residence, and a student or open-source beginner; China is not listed among the embargoed locations.",
+  "last_verified": "2026-07-29"
+}

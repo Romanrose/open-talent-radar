@@ -1,0 +1,19 @@
+{
+  "slug": "nebulagraph-university",
+  "name": "NebulaGraph University and Community Practice",
+  "organization": "NebulaGraph",
+  "kind": "open_source_internship",
+  "url": "https://www.nebula-graph.com.cn/university",
+  "status": "verify",
+  "deadline": null,
+  "mentorship": false,
+  "remote": true,
+  "reward": "Community practice and possible summer internship or talent-program opportunities",
+  "skills": ["C++", "Python", "Graph RAG", "Git", "Distributed Systems"],
+  "interests": ["Open Source", "Developer Tools", "AI Agents", "LLM Infrastructure"],
+  "difficulty": "medium",
+  "summary": "University-facing program and community practice around graph databases and knowledge-graph technology.",
+  "source": "official",
+  "eligibility": "Confirm the current summer internship or talent-program intake directly with NebulaGraph.",
+  "last_verified": "2026-07-29"
+}
