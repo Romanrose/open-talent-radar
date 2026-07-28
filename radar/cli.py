@@ -6,6 +6,7 @@ from pathlib import Path
 from .data import load_opportunities, load_profile
 from .matcher import rank
 from .reporter import render_report, write_report
+from .sync import render_source_monitor, sync_sources
 from .templates import application_record, learning_plan, write_template
 
 DEFAULT_PROFILE = "profile.example.json"
@@ -55,6 +56,15 @@ def command_track(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_sync(args: argparse.Namespace) -> int:
+    opportunities = load_opportunities(args.opportunities)
+    state = sync_sources(opportunities, args.state, args.timeout)
+    path = write_report(args.output, render_source_monitor(state))
+    changed = sum(1 for record in state["sources"].values() if record["changed"])
+    print(f"Checked {len(opportunities)} official sources; {changed} content changes detected. Wrote {path}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="oss-radar", description="Match open-source talent opportunities to a contributor profile.")
     parser.add_argument("--profile", default=DEFAULT_PROFILE)
@@ -77,6 +87,12 @@ def build_parser() -> argparse.ArgumentParser:
     track_parser.add_argument("slug")
     track_parser.add_argument("--output", default="applications")
     track_parser.set_defaults(func=command_track)
+
+    sync_parser = subparsers.add_parser("sync", help="Monitor official opportunity pages for changes requiring review.")
+    sync_parser.add_argument("--state", default="data/source-state.json")
+    sync_parser.add_argument("--output", default="reports/source-monitor.md")
+    sync_parser.add_argument("--timeout", type=int, default=20)
+    sync_parser.set_defaults(func=command_sync)
     return parser
 
 

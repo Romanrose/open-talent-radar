@@ -1,0 +1,19 @@
+{
+  "slug": "tencent-rhinobird",
+  "name": "Tencent Rhino-Bird Open Source Talent Program",
+  "organization": "Tencent Open Source",
+  "kind": "open_source_mentorship",
+  "url": "https://opensource.tencent.com/summer-of-code",
+  "status": "open",
+  "deadline": "2026-07-31",
+  "mentorship": true,
+  "remote": true,
+  "reward": "Certificates, mentor-nominated project grant, and potential Tencent interview opportunity",
+  "skills": ["Python", "C++", "Git", "LLM", "AI Agents", "Cloud Native"],
+  "interests": ["Open Source", "AI Agents", "Developer Tools", "LLM Infrastructure"],
+  "difficulty": "medium",
+  "summary": "Progressive open-source learning, issue practice, and selected project work with mentor guidance.",
+  "source": "official",
+  "eligibility": "University students; verify the current annual student guide and application form.",
+  "last_verified": "2026-07-29"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "openatom-competition",
+  "name": "OpenAtom Open Source Competition 2026",
+  "organization": "OpenAtom Foundation",
+  "kind": "open_source_competition",
+  "url": "https://competition.openatom.tech/",
+  "status": "open",
+  "deadline": null,
+  "mentorship": false,
+  "remote": true,
+  "reward": "Competition recognition and project-based awards",
+  "skills": ["Python", "C++", "Git", "AI Agents", "LLM Infrastructure"],
+  "interests": ["Open Source", "Developer Tools", "AI Infrastructure"],
+  "difficulty": "medium",
+  "summary": "2026 competition cycle with track proposal activity in July–August and implementation from August to November.",
+  "source": "official",
+  "eligibility": "Review each announced track for student eligibility, team size, and exact submission dates.",
+  "last_verified": "2026-07-29"
+}
