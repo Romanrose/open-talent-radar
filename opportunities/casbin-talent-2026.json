@@ -1,0 +1,17 @@
+{
+  "slug": "casbin-talent",
+  "name": "Casbin Talent 2026",
+  "organization": "Casbin Community",
+  "kind": "open_source_mentorship",
+  "url": "https://github.com/casbin/Talent2026",
+  "status": "open",
+  "deadline": "2026-12-31",
+  "mentorship": true,
+  "remote": true,
+  "reward": "Monthly grant and community internship certificate",
+  "skills": ["Python", "Git", "LLM", "React", "Go"],
+  "interests": ["AI Agents", "Developer Tools", "Open Source"],
+  "difficulty": "medium",
+  "summary": "Mentor-led mini projects across Casbin, Casdoor, Casibase, and language SDKs.",
+  "source": "official"
+}

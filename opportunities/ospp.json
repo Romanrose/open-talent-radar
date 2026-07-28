@@ -1,0 +1,17 @@
+{
+  "slug": "ospp",
+  "name": "Open Source Promotion Plan",
+  "organization": "Institute of Software, Chinese Academy of Sciences",
+  "kind": "open_source_mentorship",
+  "url": "https://summer-ospp.ac.cn/",
+  "status": "watch",
+  "deadline": null,
+  "mentorship": true,
+  "remote": true,
+  "reward": "Mentor guidance, grant, and completion certificate",
+  "skills": ["Python", "Git", "C++", "Cloud Native"],
+  "interests": ["Open Source", "AI Agents", "Developer Tools"],
+  "difficulty": "hard",
+  "summary": "Annual mentorship program connecting students with open-source communities.",
+  "source": "official"
+}

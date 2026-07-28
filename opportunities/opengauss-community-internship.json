@@ -1,0 +1,17 @@
+{
+  "slug": "opengauss-community",
+  "name": "openEuler & openGauss Community Internship",
+  "organization": "Huawei Computing Community",
+  "kind": "open_source_internship",
+  "url": "https://edu.hicomputing.huawei.com/openeuler-opengauss-talent",
+  "status": "verify",
+  "deadline": null,
+  "mentorship": true,
+  "remote": true,
+  "reward": "Community recognition and internship incentives",
+  "skills": ["C++", "Git", "Cloud Native", "Docker"],
+  "interests": ["Open Source", "Developer Tools"],
+  "difficulty": "hard",
+  "summary": "Community contribution and internship path for operating systems and databases.",
+  "source": "official"
+}

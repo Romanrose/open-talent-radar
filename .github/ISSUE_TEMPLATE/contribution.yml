@@ -1,0 +1,19 @@
+name: Track a contribution
+description: Create a personal contribution or application record.
+title: "track: "
+labels: ["application", "in-progress"]
+body:
+  - type: input
+    id: opportunity
+    attributes:
+      label: Opportunity slug or URL
+    validations:
+      required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: Technical plan
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Related issues, pull requests, or notes

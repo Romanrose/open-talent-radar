@@ -1,0 +1,25 @@
+name: Add an opportunity
+description: Propose an open-source mentorship, internship, or contribution program.
+title: "opportunity: "
+labels: ["opportunity"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Opportunity name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+    validations:
+      required: true
+  - type: textarea
+    id: mentor
+    attributes:
+      label: Mentor model, eligibility, deadline, and rewards
+  - type: textarea
+    id: skills
+    attributes:
+      label: Relevant skills and project directions

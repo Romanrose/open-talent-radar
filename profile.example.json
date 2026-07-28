@@ -1,0 +1,19 @@
+{
+  "name": "Your Name",
+  "education": {
+    "degree": "Master's student",
+    "major": "Software Engineering",
+    "graduation_year": 2028
+  },
+  "skills": {
+    "strong": ["Python", "PyTorch", "LLM", "RAG", "Git"],
+    "familiar": ["C++", "React", "Redis", "Docker"],
+    "learning": ["Go", "MindSpore", "Cloud Native"]
+  },
+  "interests": ["AI Agents", "Multimodal Learning", "Open Source", "Developer Tools"],
+  "preferences": {
+    "mentorship": true,
+    "remote": true,
+    "minimum_match_score": 60
+  }
+}
