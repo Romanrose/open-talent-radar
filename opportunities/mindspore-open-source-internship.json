@@ -1,0 +1,17 @@
+{
+  "slug": "mindspore-internship",
+  "name": "MindSpore Open Source Internship",
+  "organization": "MindSpore Community",
+  "kind": "open_source_internship",
+  "url": "https://www.mindspore.cn/internship",
+  "status": "open",
+  "deadline": "rolling",
+  "mentorship": true,
+  "remote": true,
+  "reward": "Stipend and internship certificate",
+  "skills": ["Python", "Deep Learning", "LLM", "Git"],
+  "interests": ["AI Agents", "Open Source", "Multimodal Learning"],
+  "difficulty": "medium",
+  "summary": "Task-based open-source internship with mentor review and PR-based evaluation.",
+  "source": "official"
+}

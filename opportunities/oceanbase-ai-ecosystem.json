@@ -1,0 +1,17 @@
+{
+  "slug": "oceanbase-ai-ecosystem",
+  "name": "OceanBase AI Ecosystem Internship",
+  "organization": "OceanBase",
+  "kind": "open_source_internship",
+  "url": "https://ask.oceanbase.com/t/topic/35645128",
+  "status": "verify",
+  "deadline": null,
+  "mentorship": true,
+  "remote": false,
+  "reward": "Internship",
+  "skills": ["Python", "LLM", "RAG", "Git", "Docker"],
+  "interests": ["AI Agents", "Developer Tools", "Open Source"],
+  "difficulty": "hard",
+  "summary": "Open-source AI ecosystem work around database-native agents and context engineering.",
+  "source": "official_community"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "paddle-hackathon",
+  "name": "PaddlePaddle Hackathon",
+  "organization": "PaddlePaddle",
+  "kind": "open_source_competition",
+  "url": "https://www.paddlepaddle.org.cn/documentation/docs/zh/guides/10_contribution/hackathon_cn.html",
+  "status": "watch",
+  "deadline": null,
+  "mentorship": true,
+  "remote": true,
+  "reward": "Mentor guidance, prizes, and contribution recognition",
+  "skills": ["Python", "Deep Learning", "Git", "C++"],
+  "interests": ["Multimodal Learning", "Open Source"],
+  "difficulty": "medium",
+  "summary": "Cyclical open-source contribution program with training and mentor guidance.",
+  "source": "official"
+}
