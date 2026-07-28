@@ -1,0 +1,19 @@
+{
+  "slug": "kde-season-of-kde",
+  "name": "KDE Season of KDE",
+  "organization": "KDE Community",
+  "kind": "open_source_mentorship",
+  "url": "https://mentorship.kde.org/sok/",
+  "status": "watch",
+  "deadline": null,
+  "mentorship": true,
+  "remote": true,
+  "reward": "Mentored contribution experience, certificate, and community recognition",
+  "skills": ["C++", "Python", "Git", "Developer Tools"],
+  "interests": ["Open Source", "Developer Tools"],
+  "difficulty": "medium",
+  "summary": "KDE's annual outreach program for code and non-code contributions. The 2026 cycle concluded; watch for the next winter intake.",
+  "source": "official",
+  "eligibility": "Open to contributors internationally; confirm the next cycle's rules and schedule.",
+  "last_verified": "2026-07-29"
+}

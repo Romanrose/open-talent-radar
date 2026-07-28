@@ -1,0 +1,19 @@
+{
+  "slug": "pingcap-tidb-talent-plan",
+  "name": "PingCAP TiDB Talent Plan",
+  "organization": "PingCAP / TiDB Community",
+  "kind": "open_source_training",
+  "url": "https://tidb.net/talent-plan",
+  "status": "watch",
+  "deadline": null,
+  "mentorship": true,
+  "remote": true,
+  "reward": "Distributed systems training, community mentorship, and potential ecosystem internship opportunities",
+  "skills": ["C++", "Python", "Git", "Distributed Systems", "Cloud Native"],
+  "interests": ["Open Source", "ML Systems", "LLM Infrastructure", "Developer Tools"],
+  "difficulty": "hard",
+  "summary": "PingCAP's community talent-development path for distributed-database learners; monitor for the next active cohort.",
+  "source": "official_community",
+  "eligibility": "Check each cohort for its application window and student requirements.",
+  "last_verified": "2026-07-29"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "outreachy",
+  "name": "Outreachy Open Source Internship",
+  "organization": "Outreachy / Software Freedom Conservancy",
+  "kind": "open_source_mentorship",
+  "url": "https://www.outreachy.org/",
+  "status": "watch",
+  "deadline": null,
+  "mentorship": true,
+  "remote": true,
+  "reward": "Paid three-month remote internship with experienced community mentors",
+  "skills": ["Python", "C++", "Git", "AI Agents", "Developer Tools"],
+  "interests": ["Open Source", "Developer Tools", "AI Infrastructure"],
+  "difficulty": "medium",
+  "summary": "Global remote open-source internships for applicants who face underrepresentation, systemic bias, or discrimination in their local technical industry.",
+  "source": "official",
+  "eligibility": "Eligibility is identity- and circumstance-based; self-assess against the official applicant guide before applying. The December 2026 round is expected to open in early August.",
+  "last_verified": "2026-07-29"
+}
