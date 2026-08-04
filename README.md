@@ -39,6 +39,8 @@ You can always replace `oss-radar` with `python -m radar.cli` when you do not wa
 
 The generated files live in `reports/`, `learning/`, and `applications/`. Commit them or turn their action items into GitHub Issues.
 
+For a project-driven Chinese learning path covering AI sandboxing, memory/performance work, LLM infrastructure, MindSpore, and Casbin/Casibase, see [AI Systems 学习目录](learning/ai-systems/).
+
 ## Example output
 
 ```text
