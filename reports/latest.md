@@ -1,6 +1,6 @@
 # Open Talent Radar Report
 
-Generated for **Your Name** on 2026-08-10.
+Generated for **Your Name** on 2026-08-17.
 
 ## Recommended opportunities
 
