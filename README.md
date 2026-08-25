@@ -10,6 +10,7 @@ Open Talent Radar is a GitHub-native, privacy-friendly command-line tool for stu
 - Ranks each opportunity against your skills, interests, preferences, deadline, and mentor availability.
 - Generates a Markdown radar report that is easy to review in GitHub.
 - Creates a focused learning checklist and an application record for any opportunity.
+- Adds a dedicated job radar for verified internships and campus roles, with role, location, graduation-year, and interview-preparation tracking.
 - Refreshes the committed report on a weekly GitHub Actions schedule.
 - Monitors official program pages for change signals, while keeping every catalog update human-reviewed.
 
@@ -31,6 +32,11 @@ oss-radar --profile profile.json report
 oss-radar --profile profile.json learn mindspore-internship
 oss-radar --profile profile.json track casbin-talent
 oss-radar sync
+oss-radar job-match
+oss-radar job-report
+oss-radar job-track bytedance-seed-internship
+oss-radar job-sync
+oss-radar oss-sync
 ```
 
 You can always replace `oss-radar` with `python -m radar.cli` when you do not want to install the package.
@@ -83,6 +89,16 @@ Every file under `opportunities/` is intentionally small and reviewable:
 ```
 
 Use `open`, `watch`, or `verify` for `status` so a report does not silently treat an unverified or cyclical program as actively accepting applications.
+
+## Job radar
+
+Job records live in the independent `jobs/` directory. The open-source radar reads only `opportunities/`; the job radar reads only `jobs/`. The official discovery sources are separately maintained in `job-sources/`, so a company career page never becomes a falsely specific job record. A verified job record can include `employment_type`, `role_family`, `location`, `work_mode`, and `seniority`.
+
+Use `oss-radar job-match` for a ranked list, `oss-radar job-report` for `reports/jobs-latest.md`, and `oss-radar job-track <slug>` for a resume/interview checklist. Add only official career pages or job posts and retain `last_verified`; recruitment status changes quickly.
+
+`oss-radar job-sync` checks the separate, human-reviewed `job-sources/official-china.json` catalog once and reports page-level changes. It is intentionally a review signal, not a scraping or auto-application tool.
+
+`oss-radar oss-sync` applies the same review gate to `oss-sources/`, where long-running mentorship programs, domestic foundations, and project communities are kept separate from individual opportunity records.
 
 ## Scoring is explainable
 

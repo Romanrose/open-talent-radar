@@ -6,12 +6,19 @@ from pathlib import Path
 from .models import Match, Profile
 
 
-def render_report(profile: Profile, matches: list[Match], generated_on: date | None = None) -> str:
+def render_report(
+    profile: Profile,
+    matches: list[Match],
+    generated_on: date | None = None,
+    title: str = "Open Talent Radar Report",
+    threshold: int | None = None,
+    mode: str = "open_source",
+) -> str:
     generated_on = generated_on or date.today()
-    threshold = int(profile.preferences.get("minimum_match_score", 60))
+    threshold = threshold if threshold is not None else int(profile.preferences.get("minimum_match_score", 60))
     recommended = [item for item in matches if item.score >= threshold]
     lines = [
-        "# Open Talent Radar Report",
+        f"# {title}",
         "",
         f"Generated for **{profile.name}** on {generated_on.isoformat()}.",
         "",
@@ -22,7 +29,11 @@ def render_report(profile: Profile, matches: list[Match], generated_on: date | N
     ]
     for item in recommended:
         op = item.opportunity
-        why = "; ".join(item.fit_notes[:2]) or "Profile-compatible opportunity"
+        reasons = item.fit_notes[:2]
+        matched_skills = next((note for note in item.fit_notes if note.startswith("Matched skills:")), "")
+        if matched_skills and matched_skills not in reasons:
+            reasons.append(matched_skills)
+        why = "; ".join(reasons) or "Profile-compatible opportunity"
         lines.append(
             f"| {item.score} | [{op.name}]({op.url}) | {'Yes' if op.mentorship else 'No'} | {op.status} | {op.deadline or '—'} | {why} |"
         )
@@ -36,12 +47,22 @@ def render_report(profile: Profile, matches: list[Match], generated_on: date | N
 
     lines += ["", "## Next actions", ""]
     for item in recommended[:3]:
+        if mode == "job":
+            actions = [
+                "- [ ] Verify the role scope, location, and deadline on the official page.",
+                "- [ ] Tailor the resume with the most relevant project evidence.",
+                "- [ ] Open `oss-radar job-track " + item.opportunity.slug + "` to create an application and interview checklist.",
+            ]
+        else:
+            actions = [
+                "- [ ] Read the [official opportunity page](" + item.opportunity.url + ").",
+                "- [ ] Choose a task and write a short technical plan.",
+                "- [ ] Open `oss-radar learn " + item.opportunity.slug + "` to generate a focused preparation checklist.",
+                "- [ ] Open `oss-radar track " + item.opportunity.slug + "` to create an application record.",
+            ]
         lines.extend([
             f"### {item.opportunity.name}",
-            f"- [ ] Read the [official opportunity page]({item.opportunity.url}).",
-            "- [ ] Choose a task and write a short technical plan.",
-            "- [ ] Open `oss-radar learn " + item.opportunity.slug + "` to generate a focused preparation checklist.",
-            "- [ ] Open `oss-radar track " + item.opportunity.slug + "` to create an application record.",
+            *actions,
             "",
         ])
     return "\n".join(lines).rstrip() + "\n"

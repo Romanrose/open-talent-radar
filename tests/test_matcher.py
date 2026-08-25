@@ -63,6 +63,19 @@ class MatcherTests(unittest.TestCase):
         result = match(self.profile, opportunity, today=date(2026, 7, 28))
         self.assertIn("Expected graduation year 2028 is not listed as eligible", result.fit_notes)
 
+    def test_job_preferences_raise_score(self):
+        profile = Profile.from_dict({
+            "name": "Ada",
+            "education": {"graduation_year": 2028},
+            "skills": {"strong": ["Python"]},
+            "interests": ["AI Agents"],
+            "preferences": {"career": {"employment_types": ["internship"], "role_families": ["Agent Engineering"], "locations": ["Beijing"]}},
+        })
+        job = Opportunity.from_dict({"slug": "job", "name": "Job", "organization": "O", "kind": "internship", "url": "https://x", "status": "open", "track": "job", "employment_type": "internship", "role_family": "Agent Engineering", "location": "Beijing", "skills": ["Python"]})
+        result = match(profile, job)
+        self.assertIn("Preferred role family: Agent Engineering", result.fit_notes)
+        self.assertGreaterEqual(result.score, 60)
+
 
 if __name__ == "__main__":
     unittest.main()

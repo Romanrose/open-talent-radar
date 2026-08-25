@@ -1,0 +1,41 @@
+{
+  "last_reviewed": "2026-08-25",
+  "sources": [
+    {
+      "organization": "Google",
+      "name": "Google Careers",
+      "url": "https://careers.google.com/jobs",
+      "focus": ["internship", "student", "software engineering", "AI", "research"],
+      "region": "global",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "Microsoft",
+      "name": "Microsoft Early in Profession",
+      "url": "https://careers.microsoft.com/v2/global/en/students",
+      "focus": ["internship", "student", "AI", "software engineering", "cloud"],
+      "region": "global",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "NVIDIA",
+      "name": "NVIDIA University Recruiting",
+      "url": "https://www.nvidia.com/en-gb/about-nvidia/university-recruiting/",
+      "focus": ["internship", "new graduate", "AI", "deep learning", "systems"],
+      "region": "global",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "Amazon",
+      "name": "Amazon Student Internships",
+      "url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students/",
+      "focus": ["internship", "student", "AWS", "software engineering", "machine learning"],
+      "region": "global",
+      "priority": "watch",
+      "review_frequency_days": 14
+    }
+  ]
+}
