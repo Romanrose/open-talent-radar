@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "updated_at": "2026-08-25T15:08:45+00:00",
+  "sources": {
+    "tencent-1": {
+      "name": "Tencent Careers",
+      "url": "https://jobs.tencent.com/",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "ebf89d7e97795d14ab857865261ef2ca3b486174b62e29c7281be25e382993dd"
+    },
+    "alibaba-2": {
+      "name": "Alibaba Campus Recruitment",
+      "url": "https://campus-talent.alibaba.com/campus/gov",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "7f96769ac1674b121a2a4f4db720dc211f9a2055227647af01b1732a7e3af6c4"
+    },
+    "baidu-3": {
+      "name": "Baidu Campus Recruitment",
+      "url": "https://talent.baidu.com/jobs/campus",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": true,
+      "http_status": 200,
+      "content_hash": "7dd45929849ce6d0233e856b9d67663b1f2f03e9b5ea73cc31e8e23c2bcd5490"
+    },
+    "bytedance-4": {
+      "name": "ByteDance Seed Campus Recruitment",
+      "url": "https://seed.bytedance.com/en/seedearlycareer",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": true,
+      "http_status": 200,
+      "content_hash": "9d0d8aa7857ea7684545e9beb71a15941c202d0b10dd9f02a46de2e71bb61023"
+    },
+    "huawei-5": {
+      "name": "Huawei Campus Recruitment",
+      "url": "https://career.huawei.com/cn/campus-recruitment",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "6023487a4b59ff0a7e49096f9c9c3652b291f248a25602de96bc97db93e5e928"
+    },
+    "meituan-6": {
+      "name": "Meituan Campus Recruitment",
+      "url": "https://career.meituan.com/",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "5a80160bcf998ac7b0e9efffa1661ebc0779fc8c9c1f90f0519d3fa57636a4fe"
+    },
+    "didi-7": {
+      "name": "DiDi Campus and Internship Recruitment",
+      "url": "https://talent.didiglobal.com/",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "67ae27ac7caf4b1d42506ea5ff6b63eb2355fb33c8b3be6ef8f7b95e9f7b9d14"
+    },
+    "google-8": {
+      "name": "Google Careers",
+      "url": "https://careers.google.com/jobs",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": true,
+      "http_status": 200,
+      "content_hash": "c636de5d7ee1e62798822f0c85a1320951261d69d374ca04b16a44d6bdf8b923"
+    },
+    "microsoft-9": {
+      "name": "Microsoft Early in Profession",
+      "url": "https://careers.microsoft.com/v2/global/en/students",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "7b454cd6670f40a94bb0d4caa269d4b4b46b82277026b144dfd977e874ab96a5"
+    },
+    "nvidia-10": {
+      "name": "NVIDIA University Recruiting",
+      "url": "https://www.nvidia.com/en-gb/about-nvidia/university-recruiting/",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "42313958fe12bd4605a86b5b0d8c6f5dff13e79531b7362851c222ae3d0e3959"
+    },
+    "amazon-11": {
+      "name": "Amazon Student Internships",
+      "url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students/",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": true,
+      "http_status": 200,
+      "content_hash": "0df06baa3334a37e0dabf9e3c55f5e5f7a64ca5f266e6f795712de8b8df47c11"
+    },
+    "tencent-12": {
+      "name": "Tencent Shenzhen Careers",
+      "url": "https://jobs.tencent.com/",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "ebf89d7e97795d14ab857865261ef2ca3b486174b62e29c7281be25e382993dd"
+    },
+    "huawei-13": {
+      "name": "Huawei Shenzhen Careers",
+      "url": "https://career.huawei.com/cn/campus-recruitment",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "6023487a4b59ff0a7e49096f9c9c3652b291f248a25602de96bc97db93e5e928"
+    },
+    "alibaba-14": {
+      "name": "Alibaba Guangzhou Campus Recruitment",
+      "url": "https://campus-talent.alibaba.com/campus/gov",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "7f96769ac1674b121a2a4f4db720dc211f9a2055227647af01b1732a7e3af6c4"
+    },
+    "xiaomi-15": {
+      "name": "Xiaomi Careers",
+      "url": "https://hr.xiaomi.com/",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "ea4805d5039bf2b8fd269ab2a9e64bb568eb702ca85cd3256a5ad565502fde4a"
+    },
+    "shopee-16": {
+      "name": "Shopee Careers Singapore",
+      "url": "https://careers.shopee.sg/",
+      "checked_at": "2026-08-25T15:08:45+00:00",
+      "changed": false,
+      "http_status": 200,
+      "content_hash": "7a449e1993e7ba0d8cd361e9ebb1e17979a2da1d67df383f25c1b32575e1c180"
+    }
+  }
+}

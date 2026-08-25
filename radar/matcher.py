@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import date
+import re
 
 from .models import Match, Opportunity, Profile
 
@@ -22,6 +23,15 @@ def _canonical(item: str) -> str:
 
 def _normalise(items: list[str]) -> set[str]:
     return {_canonical(item) for item in items if item.strip()}
+
+
+def _location_rank(location: str, preferences: list[str]) -> int | None:
+    """Return the best preference rank for a possibly multi-city job location."""
+    places = {_canonical(part) for part in re.split(r"[/,，、;；]", location) if part.strip()}
+    for index, preferred in enumerate(preferences):
+        if _canonical(preferred) in places:
+            return index
+    return None
 
 
 def match(profile: Profile, opportunity: Opportunity, today: date | None = None) -> Match:
@@ -49,6 +59,22 @@ def match(profile: Profile, opportunity: Opportunity, today: date | None = None)
     if opportunity.remote and profile.preferences.get("remote", True):
         score += 5
         notes.append("Remote-friendly contribution path")
+    career = profile.preferences.get("career", {})
+    if opportunity.track == "job":
+        preferred_types = _normalise(career.get("employment_types", []))
+        preferred_roles = _normalise(career.get("role_families", []))
+        preferred_locations = career.get("locations", [])
+        if opportunity.employment_type and _canonical(opportunity.employment_type) in preferred_types:
+            score += 6
+            notes.append(f"Preferred employment type: {opportunity.employment_type}")
+        if opportunity.role_family and _canonical(opportunity.role_family) in preferred_roles:
+            score += 8
+            notes.append(f"Preferred role family: {opportunity.role_family}")
+        location_rank = _location_rank(opportunity.location, preferred_locations) if opportunity.location else None
+        if location_rank is not None:
+            location_bonus = max(3, 12 - location_rank * 2)
+            score += location_bonus
+            notes.append(f"Location priority #{location_rank + 1}: {preferred_locations[location_rank]}")
     if opportunity.status == "open":
         score += 5
         notes.append("Currently open")
