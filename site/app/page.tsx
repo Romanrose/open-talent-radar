@@ -1,49 +1,30 @@
 const jobs = [
-  { score: 95, name: "Agent开发工程师", code: "J104755", org: "Baidu ACG", track: "Agent Engineering", skills: "AI Agents · Coding Agents · RAG", tone: "violet" },
-  { score: 89, name: "大模型算法实习生", code: "J99230", org: "Baidu Foundation Model R&D", track: "LLM Engineering", skills: "LLM · Deep Learning · Multimodal", tone: "blue" },
-  { score: 87, name: "Seed Foundation Model Internship", code: "2026", org: "ByteDance Seed", track: "LLM Engineering", skills: "LLM Infra · Model Evaluation · C++", tone: "orange" },
-  { score: 84, name: "视频生成大模型算法实习生", code: "J96241", org: "Baidu Applied Model R&D", track: "Multimodal Learning", skills: "Multimodal · PyTorch · C++", tone: "pink" },
-];
-
-const gaps = [
-  ["Kubernetes / Linux", "LLM Infra 岗位的首要补强项"],
-  ["Reinforcement Learning", "Agent 算法与科研实习的加分项"],
-  ["Simulation & Optimization", "具身评测与 AI4S 方向的延展项"],
+  { score: 96, name: "AI Infra 研发实习生", org: "Baidu", city: "深圳", track: "AI Infrastructure", skills: "Go · Python · Linux · K8s · GPU/RDMA", url: "https://talent.baidu.com/jobs/detail/INTERN/520472fa-81c9-462f-b603-b1e7ec4763e7" },
+  { score: 95, name: "大模型算法实习生", org: "Baidu", city: "深圳", track: "LLM Engineering", skills: "Python · PyTorch · LLM · 评测 · RL", url: "https://talent.baidu.com/jobs/detail/INTERN/a6067048-13d7-4949-ae47-edef93b80b19" },
+  { score: 94, name: "文心前沿算法实习生", org: "Baidu", city: "深圳 / 上海 / 北京", track: "Multimodal Learning", skills: "PyTorch · 多模态 · C++ · 模型评测", url: "https://talent.baidu.com/jobs/detail/INTERN/ca1e873a-f3e5-4227-befd-5b408965a610" },
+  { score: 92, name: "大模型智能体实习生", org: "Baidu", city: "上海 / 北京", track: "Agent Engineering", skills: "Agent · Coding Agent · RAG · 评测", url: "https://talent.baidu.com/jobs/detail/INTERN/320200cd-893d-4076-b39d-1f77f7a79948" },
+  { score: 90, name: "大模型后端研发实习生", org: "Baidu", city: "上海", track: "LLM Engineering", skills: "Go · Python · Linux · 分布式系统", url: "https://talent.baidu.com/jobs/detail/INTERN/15f123ac-2755-4324-b5ba-25682d0f9b40" },
+  { score: 88, name: "大模型智能体策略实习生", org: "Baidu", city: "北京", track: "Agent Engineering", skills: "Python · LLM · 多模态 · RL · 评测", url: "https://talent.baidu.com/jobs/detail/INTERN/a1db2391-2c99-4fc5-bbeb-f2c048f45998" },
 ];
 
 const programs = [
-  { score: 97, name: "MindSpore 开源实习", org: "华为 MindSpore", state: "持续关注", detail: "导师制 · AI 框架 / 系统方向", tone: "blue" },
-  { score: 92, name: "腾讯犀牛鸟开源人才计划", org: "Tencent Open Source", state: "已提交申请", detail: "已选 Agent Memory / CubeSandbox 等方向", tone: "violet" },
-  { score: 86, name: "Casbin Talent 2026", org: "Apache Casbin", state: "持续关注", detail: "社区导师 · 权限系统与工程贡献", tone: "orange" },
-  { score: 73, name: "开源之夏", org: "Open Source Promotion Plan", state: "等待下一期", detail: "导师制 · 真实社区贡献", tone: "pink" },
+  ["腾讯犀牛鸟开源人才计划", "主线 · Agent Memory / CubeSandbox", "https://opensource.tencent.com/summer-of-code"],
+  ["MindSpore 开源实习", "导师制 · AI 框架与系统", "https://www.mindspore.cn/internship"],
+  ["Casbin Talent 2026", "导师制 · 权限与工程贡献", "https://github.com/apache/casbin-Talent2026"],
+  ["开源之夏", "真实社区课题与导师", "https://summer-ospp.ac.cn/"],
+  ["PaddlePaddle 社区", "深度学习框架与模型算法", "https://www.paddlepaddle.org.cn/"],
+  ["openEuler 社区", "系统、云原生与基础设施", "https://www.openeuler.org/zh/"],
 ];
 
+const sources = ["16 个求职官方入口", "13 个开源官方入口", "每日 09:00（UTC）巡检", "仅人工核验后入库"];
+
 export default function Home() {
-  return (
-    <main>
-      <nav className="topbar">
-        <a className="brand" href="#top"><span>OR</span> Open Talent Radar</a>
-        <div className="navlinks"><a href="#jobs">求职雷达</a><a href="#opensource">开源雷达</a><a href="#sources">官方来源</a><a href="#growth">能力路线</a></div>
-        <button className="sync">● 已核验 · 08.25</button>
-      </nav>
-      <section id="top" className="hero wrap">
-        <div>
-          <p className="eyebrow">JINYUAN LI · PERSONAL CAREER INTELLIGENCE</p>
-          <h1>把岗位情报，<br /><em>变成行动优先级。</em></h1>
-          <p className="hero-copy">面向 AI Agent、LLM Infra、多模态与软件工程的双雷达：一边追踪岗位，一边持续投入有导师的开源社区。</p>
-          <div className="hero-actions"><a className="primary" href="#jobs">查看高匹配岗位 <b>↓</b></a><a className="quiet" href="#growth">查看补强路线</a></div>
-        </div>
-        <aside className="hero-stat"><div className="stat-label">CURRENT FOCUS</div><strong>Agent<br />Systems</strong><div className="stat-bottom"><span>24</span><small>jobs + OSS programs<br />in radar</small></div></aside>
-      </section>
-      <section className="wrap metrics" aria-label="Radar overview"><div><b>08</b><span>已核验岗位</span></div><div><b>16</b><span>开源培养计划</span></div><div><b>20</b><span>官方来源监测</span></div><div><b>2028</b><span>硕士毕业年份</span></div></section>
-      <section id="jobs" className="wrap section">
-        <div className="section-heading"><div><p className="eyebrow">01 / JOB RADAR</p><h2>高匹配机会</h2></div><p>按技术栈、研究兴趣、岗位方向与地点偏好进行解释型匹配。</p></div>
-        <div className="job-list">{jobs.map((job, index) => <article className="job-card" key={job.code}><div className="rank">0{index + 1}</div><div className={`score ${job.tone}`}>{job.score}<small>/100</small></div><div className="job-main"><div className="job-title"><h3>{job.name}</h3><span>{job.code}</span></div><p>{job.org} <i>·</i> 北京 / 线下实习</p><div className="chips"><span>{job.track}</span><span>{job.skills}</span></div></div><a className="arrow" href="https://talent.baidu.com/jobs/list?recruitType=INTERN" aria-label={`View ${job.name}`}>↗</a></article>)}</div>
-      </section>
-      <section id="opensource" className="oss-section"><div className="wrap section"><div className="section-heading"><div><p className="eyebrow">02 / OPEN SOURCE RADAR</p><h2>开源不只是“加分项”</h2></div><p>优先关注有导师、可提交真实贡献，并能与你的 Agent / AI Infra 学习路线形成闭环的计划。</p></div><div className="program-grid">{programs.map((program) => <article className="program-card" key={program.name}><div className={`score ${program.tone}`}>{program.score}<small>/100</small></div><div><p className="program-org">{program.org}</p><h3>{program.name}</h3><p className="program-detail">{program.detail}</p></div><span className="program-state">{program.state}</span></article>)}</div><p className="oss-note">腾讯犀牛鸟当前作为你的主线：项目申请与已认领 issue 会被单独保留为后续贡献证据。</p></div></section>
-      <section id="growth" className="growth-section"><div className="wrap growth-grid"><div><p className="eyebrow light">02 / GROWTH ROUTE</p><h2>不是“缺什么学什么”，<br />而是为目标岗位补齐证据。</h2><p className="growth-copy">把学习路径绑定到真实岗位：每一项能力都要最终落在一个项目、一次贡献或一段可讲述的工程经历上。</p><a className="text-link" href="#sources">查看官方来源与核验机制 →</a></div><div className="gap-list">{gaps.map(([name, detail], index) => <div className="gap" key={name}><span>0{index + 1}</span><div><h3>{name}</h3><p>{detail}</p></div><b>→</b></div>)}</div></div></section>
-      <section id="sources" className="wrap section sources"><div className="section-heading"><div><p className="eyebrow">03 / TRUST LAYER</p><h2>双雷达来源监测</h2></div><p>11 个求职入口与 9 个开源入口均只保留官方页面；变化只会生成待复核提醒。</p></div><div className="source-grid">{["求职 · 腾讯招聘", "求职 · 百度校园招聘", "求职 · 字节 Seed", "求职 · 华为校招", "求职 · Microsoft", "开源 · 腾讯犀牛鸟", "开源 · MindSpore", "开源 · Casbin Talent", "开源 · GSoC", "开源 · CNCF Mentorship", "开源 · Outreachy", "开源 · LFX Mentorship"].map((name) => <div className="source" key={name}><span className="dot" /><div><h3>{name}</h3><p>Official source · monitored</p></div><span>↗</span></div>)}</div></section>
-      <footer className="wrap"><span>OPEN TALENT RADAR</span><p>Built for deliberate learning &amp; meaningful work.</p><span>2026</span></footer>
-    </main>
-  );
+  return <main>
+    <header className="topbar"><a className="brand" href="#top">Open Talent Radar <small>Romanrose</small></a><nav><a href="#jobs">岗位</a><a href="#opensource">开源</a><a href="#insight">分析</a></nav><span className="verified">● 已核验 2026.08.25</span></header>
+    <section id="top" className="wrap intro"><p className="kicker">PERSONAL CAREER INTELLIGENCE</p><h1>用真实机会，<em>组织学习与行动。</em></h1><p>开发、AI Infra、模型算法、智能体方向的双雷达。所有展示岗位均保留官方详情页与技能证据。</p><div className="stats"><div><b>16</b><span>已核验岗位</span></div><div><b>16</b><span>开源机会</span></div><div><b>29</b><span>官方来源</span></div><div><b>5</b><span>优先城市</span></div></div></section>
+    <section id="jobs" className="wrap section"><div className="section-title"><div><p className="kicker">01 / JOB RADAR</p><h2>优先投递</h2></div><p>城市排序：深圳 → 广州 → 上海 → 北京 → 厦门；新加坡仅作补充观察。</p></div><div className="job-list">{jobs.map((job) => <article className="job" key={job.url}><b className="score">{job.score}</b><div><h3>{job.name}</h3><p>{job.org} · {job.city} · {job.track}</p><span>{job.skills}</span></div><a href={job.url} target="_blank" rel="noreferrer" aria-label={`打开 ${job.name} 官方岗位详情`}>官方详情 ↗</a></article>)}</div><p className="hint">广州、厦门目前以官方入口持续监测为主；不把未核验或泛搜索链接伪装成可投岗位。</p></section>
+    <section id="opensource" className="muted"><div className="wrap section"><div className="section-title"><div><p className="kicker">02 / OPEN SOURCE RADAR</p><h2>开源主线</h2></div><p>优先选择有导师、能形成真实 commit 和可讲述工程证据的计划。</p></div><div className="programs">{programs.map(([name, detail, url]) => <a href={url} target="_blank" rel="noreferrer" key={name}><h3>{name}</h3><p>{detail}</p><span>查看官方入口 ↗</span></a>)}</div></div></section>
+    <section id="insight" className="wrap section"><div className="section-title"><div><p className="kicker">03 / WHAT TO BUILD</p><h2>学习取舍</h2></div><p>岗位频次和个人缺口共同决定，而不是追逐泛化关键词。</p></div><div className="insights"><article><b>01</b><h3>AI Infra</h3><p>Linux、Docker、Kubernetes、分布式系统、GPU 基础；将其落在一个可跑的 Agent 服务中。</p></article><article><b>02</b><h3>Agent 工程</h3><p>工具调用、RAG、记忆管理、评测与回归；与腾讯 Agent Memory issue 形成同一条证据线。</p></article><article><b>03</b><h3>模型算法</h3><p>PyTorch、多模态、模型评估和 RL 基础；用实验记录而非只列论文证明掌握程度。</p></article></div><div className="source-strip">{sources.map((source) => <span key={source}>✓ {source}</span>)}</div></section>
+    <footer className="wrap">OPEN TALENT RADAR <span>daily monitored · human reviewed</span></footer>
+  </main>;
 }
