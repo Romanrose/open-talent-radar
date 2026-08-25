@@ -4,6 +4,7 @@ import argparse
 from pathlib import Path
 
 from .data import load_opportunities, load_profile, load_source_catalog
+from .analysis import render_analysis
 from .matcher import rank
 from .reporter import render_report, write_report
 from .sync import render_source_monitor, sync_source_records, sync_sources
@@ -127,6 +128,15 @@ def command_oss_sync(args: argparse.Namespace) -> int:
     return _sync_catalog(args, "open-source")
 
 
+def command_analyze(args: argparse.Namespace) -> int:
+    profile = load_profile(args.profile)
+    jobs = load_opportunities(args.jobs)
+    opportunities = load_opportunities(args.opportunities)
+    path = write_report(args.output, render_analysis(profile, jobs, opportunities))
+    print(f"Wrote {path}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="oss-radar", description="Match open-source talent opportunities to a contributor profile.")
     parser.add_argument("--profile", default=DEFAULT_PROFILE)
@@ -184,6 +194,11 @@ def build_parser() -> argparse.ArgumentParser:
     oss_sync_parser.add_argument("--output", default="reports/oss-source-monitor.md")
     oss_sync_parser.add_argument("--timeout", type=int, default=20)
     oss_sync_parser.set_defaults(func=command_oss_sync)
+
+    analysis_parser = subparsers.add_parser("analyze", help="Write an auditable combined job and open-source analysis.")
+    analysis_parser.add_argument("--jobs", default=DEFAULT_JOBS)
+    analysis_parser.add_argument("--output", default="reports/radar-analysis.md")
+    analysis_parser.set_defaults(func=command_analyze)
     return parser
 
 

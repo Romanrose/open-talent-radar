@@ -18,8 +18,8 @@
     "career": {
       "minimum_match_score": 50,
       "employment_types": ["internship", "graduate"],
-      "role_families": ["AI Research", "LLM Engineering", "Agent Engineering", "Software Engineering"],
-      "locations": ["Remote", "Beijing", "Hangzhou", "Shenzhen", "Xiamen"]
+      "role_families": ["AI Research", "LLM Engineering", "Agent Engineering", "AI Infrastructure", "ML Systems", "Software Engineering", "Multimodal Learning"],
+      "locations": ["Shenzhen", "Guangzhou", "Shanghai", "Beijing", "Xiamen", "Singapore"]
     }
   }
 }

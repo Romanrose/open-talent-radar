@@ -81,6 +81,42 @@
       "region": "global",
       "priority": "watch",
       "review_frequency_days": 14
+    },
+    {
+      "organization": "PaddlePaddle",
+      "name": "PaddlePaddle Open Source Activities",
+      "url": "https://www.paddlepaddle.org.cn/",
+      "focus": ["AI framework", "deep learning", "model algorithms", "open source"],
+      "region": "China",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "openEuler",
+      "name": "openEuler Community",
+      "url": "https://www.openeuler.org/zh/",
+      "focus": ["operating systems", "cloud native", "infrastructure", "open source"],
+      "region": "China",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "Ant Group Open Source",
+      "name": "Ant Group Open Source",
+      "url": "https://opensource.antgroup.com/",
+      "focus": ["distributed systems", "AI", "cloud native", "open source"],
+      "region": "China",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "Apache Software Foundation",
+      "name": "Apache Projects and Community",
+      "url": "https://www.apache.org/",
+      "focus": ["software engineering", "distributed systems", "data infrastructure", "open source"],
+      "region": "global",
+      "priority": "watch",
+      "review_frequency_days": 21
     }
   ]
 }

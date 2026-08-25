@@ -76,6 +76,16 @@ class MatcherTests(unittest.TestCase):
         self.assertIn("Preferred role family: Agent Engineering", result.fit_notes)
         self.assertGreaterEqual(result.score, 60)
 
+    def test_location_order_prefers_first_matching_city(self):
+        profile = Profile.from_dict({
+            "name": "Ada",
+            "skills": {"strong": ["Python"]},
+            "preferences": {"career": {"locations": ["Shenzhen", "Shanghai", "Beijing"]}},
+        })
+        shenzhen = Opportunity.from_dict({"slug": "sz", "name": "SZ", "organization": "O", "kind": "internship", "url": "https://x", "status": "open", "track": "job", "location": "Shenzhen / Beijing", "skills": ["Python"]})
+        beijing = Opportunity.from_dict({"slug": "bj", "name": "BJ", "organization": "O", "kind": "internship", "url": "https://x", "status": "open", "track": "job", "location": "Beijing", "skills": ["Python"]})
+        self.assertGreater(match(profile, shenzhen).score, match(profile, beijing).score)
+
 
 if __name__ == "__main__":
     unittest.main()
