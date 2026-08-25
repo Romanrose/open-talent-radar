@@ -16,7 +16,7 @@ def _read_state(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def sync_sources(opportunities: list[Opportunity], state_path: str | Path, timeout: int = 20) -> dict:
+def sync_source_records(sources: list[dict], state_path: str | Path, timeout: int = 20) -> dict:
     """Check official URLs and record content-level change signals.
 
     This intentionally does not turn arbitrary page text into opportunities. New
@@ -29,16 +29,17 @@ def sync_sources(opportunities: list[Opportunity], state_path: str | Path, timeo
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     current: dict[str, dict] = {}
 
-    for opportunity in opportunities:
-        old = previous_sources.get(opportunity.slug, {})
+    for source in sources:
+        slug = source["slug"]
+        old = previous_sources.get(slug, {})
         record = {
-            "name": opportunity.name,
-            "url": opportunity.url,
+            "name": source["name"],
+            "url": source["url"],
             "checked_at": now,
             "changed": False,
         }
         try:
-            request = Request(opportunity.url, headers={"User-Agent": "OpenTalentRadar/0.1 (+https://github.com/Romanrose/open-talent-radar)"})
+            request = Request(source["url"], headers={"User-Agent": "OpenTalentRadar/0.1 (+https://github.com/Romanrose/open-talent-radar)"})
             with urlopen(request, timeout=timeout) as response:
                 body = response.read(1_000_000)
                 record["http_status"] = response.status
@@ -47,12 +48,21 @@ def sync_sources(opportunities: list[Opportunity], state_path: str | Path, timeo
         except (URLError, OSError, ValueError) as error:
             record["error"] = str(error)
             record["http_status"] = None
-        current[opportunity.slug] = record
+        current[slug] = record
 
     state = {"version": 1, "updated_at": now, "sources": current}
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return state
+
+
+def sync_sources(opportunities: list[Opportunity], state_path: str | Path, timeout: int = 20) -> dict:
+    """Check official opportunity URLs and record content-level change signals."""
+    sources = [
+        {"slug": opportunity.slug, "name": opportunity.name, "url": opportunity.url}
+        for opportunity in opportunities
+    ]
+    return sync_source_records(sources, state_path, timeout)
 
 
 def render_source_monitor(state: dict) -> str:

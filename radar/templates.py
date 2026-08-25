@@ -70,6 +70,41 @@ Describe the task, expected implementation, milestones, risks, and the value to 
 """
 
 
+def job_application_record(match: Match) -> str:
+    op = match.opportunity
+    gap_lines = "\n".join(f"- [ ] {gap}" for gap in match.gaps) or "- [ ] No critical skill gap identified."
+    return f"""# Job application: {op.name}
+
+- Organization: {op.organization}
+- Official page: {op.url}
+- Role family: {op.role_family or 'Confirm'}
+- Employment type: {op.employment_type or 'Confirm'}
+- Location / mode: {op.location or 'Confirm'} / {op.work_mode or 'Confirm'}
+- Match score: {match.score}/100
+- Deadline: {op.deadline or 'Not listed'}
+
+## Application status
+
+- [ ] Official details verified
+- [ ] Resume tailored
+- [ ] Project evidence selected
+- [ ] Applied
+- [ ] Written assessment / interview scheduled
+- [ ] Completed / offer outcome recorded
+
+## Interview evidence
+
+- Resume version:
+- Most relevant project:
+- System design / coding topics:
+- Questions to ask the team:
+
+## Skill gaps to close
+
+{gap_lines}
+"""
+
+
 def write_template(path: Path, content: str) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")

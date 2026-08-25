@@ -49,6 +49,20 @@ def match(profile: Profile, opportunity: Opportunity, today: date | None = None)
     if opportunity.remote and profile.preferences.get("remote", True):
         score += 5
         notes.append("Remote-friendly contribution path")
+    career = profile.preferences.get("career", {})
+    if opportunity.track == "job":
+        preferred_types = _normalise(career.get("employment_types", []))
+        preferred_roles = _normalise(career.get("role_families", []))
+        preferred_locations = _normalise(career.get("locations", []))
+        if opportunity.employment_type and _canonical(opportunity.employment_type) in preferred_types:
+            score += 6
+            notes.append(f"Preferred employment type: {opportunity.employment_type}")
+        if opportunity.role_family and _canonical(opportunity.role_family) in preferred_roles:
+            score += 8
+            notes.append(f"Preferred role family: {opportunity.role_family}")
+        if opportunity.location and _canonical(opportunity.location) in preferred_locations:
+            score += 4
+            notes.append(f"Preferred location: {opportunity.location}")
     if opportunity.status == "open":
         score += 5
         notes.append("Currently open")
