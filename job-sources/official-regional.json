@@ -1,0 +1,40 @@
+{
+  "last_reviewed": "2026-08-25",
+  "sources": [
+    {
+      "organization": "Tencent",
+      "name": "Tencent Shenzhen Careers",
+      "url": "https://jobs.tencent.com/",
+      "focus": ["Shenzhen", "AI agents", "cloud", "software engineering", "campus"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Huawei",
+      "name": "Huawei Shenzhen Careers",
+      "url": "https://career.huawei.com/cn/campus-recruitment",
+      "focus": ["Shenzhen", "AI infrastructure", "MindSpore", "systems", "campus"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Alibaba",
+      "name": "Alibaba Guangzhou Campus Recruitment",
+      "url": "https://campus-talent.alibaba.com/campus/gov",
+      "focus": ["Guangzhou", "AI", "cloud", "software engineering", "campus"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Xiaomi",
+      "name": "Xiaomi Careers",
+      "url": "https://hr.xiaomi.com/",
+      "focus": ["Beijing", "Shenzhen", "AI", "systems", "campus"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Shopee",
+      "name": "Shopee Careers Singapore",
+      "url": "https://careers.shopee.sg/",
+      "focus": ["Singapore", "software engineering", "machine learning", "internship"],
+      "review_frequency_days": 14
+    }
+  ]
+}

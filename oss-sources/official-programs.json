@@ -1,0 +1,122 @@
+{
+  "last_reviewed": "2026-08-25",
+  "sources": [
+    {
+      "organization": "Tencent Open Source",
+      "name": "Tencent Rhino-Bird Open Source Talent Program",
+      "url": "https://opensource.tencent.com/summer-of-code",
+      "focus": ["mentor", "open source", "AI agents", "cloud native"],
+      "region": "China",
+      "priority": "primary",
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "MindSpore",
+      "name": "MindSpore Open Source Internship",
+      "url": "https://www.mindspore.cn/internship",
+      "focus": ["mentor", "AI framework", "systems", "open source"],
+      "region": "China",
+      "priority": "primary",
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Apache Casbin",
+      "name": "Casbin Talent",
+      "url": "https://github.com/apache/casbin-Talent2026",
+      "focus": ["mentor", "authorization", "software engineering", "open source"],
+      "region": "global",
+      "priority": "primary",
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Open Source Promotion Plan",
+      "name": "Open Source Promotion Plan",
+      "url": "https://summer-ospp.ac.cn/",
+      "focus": ["mentor", "open source", "student"],
+      "region": "China",
+      "priority": "primary",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "OpenAtom Foundation",
+      "name": "OpenAtom Open Source Competition",
+      "url": "https://competition.openatom.tech/",
+      "focus": ["open source", "competition", "student", "AI"],
+      "region": "China",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "Google",
+      "name": "Google Summer of Code",
+      "url": "https://developers.google.com/open-source/gsoc",
+      "focus": ["mentor", "open source", "student", "global"],
+      "region": "global",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "Linux Foundation",
+      "name": "LFX Mentorship",
+      "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
+      "focus": ["mentor", "cloud native", "systems", "open source"],
+      "region": "global",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "CNCF",
+      "name": "CNCF Mentorship",
+      "url": "https://www.cncf.io/people/mentorship/",
+      "focus": ["mentor", "cloud native", "Kubernetes", "AI infrastructure"],
+      "region": "global",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "Outreachy",
+      "name": "Outreachy Internships",
+      "url": "https://www.outreachy.org/",
+      "focus": ["mentor", "remote", "open source", "internship"],
+      "region": "global",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "PaddlePaddle",
+      "name": "PaddlePaddle Open Source Activities",
+      "url": "https://www.paddlepaddle.org.cn/",
+      "focus": ["AI framework", "deep learning", "model algorithms", "open source"],
+      "region": "China",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "openEuler",
+      "name": "openEuler Community",
+      "url": "https://www.openeuler.org/zh/",
+      "focus": ["operating systems", "cloud native", "infrastructure", "open source"],
+      "region": "China",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "Ant Group Open Source",
+      "name": "Ant Group Open Source",
+      "url": "https://opensource.antgroup.com/",
+      "focus": ["distributed systems", "AI", "cloud native", "open source"],
+      "region": "China",
+      "priority": "watch",
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "Apache Software Foundation",
+      "name": "Apache Projects and Community",
+      "url": "https://www.apache.org/",
+      "focus": ["software engineering", "distributed systems", "data infrastructure", "open source"],
+      "region": "global",
+      "priority": "watch",
+      "review_frequency_days": 21
+    }
+  ]
+}

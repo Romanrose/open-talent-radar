@@ -14,6 +14,12 @@
   "preferences": {
     "mentorship": true,
     "remote": true,
-    "minimum_match_score": 60
+    "minimum_match_score": 60,
+    "career": {
+      "minimum_match_score": 50,
+      "employment_types": ["internship", "graduate"],
+      "role_families": ["AI Research", "LLM Engineering", "Agent Engineering", "AI Infrastructure", "ML Systems", "Software Engineering", "Multimodal Learning"],
+      "locations": ["Shenzhen", "Guangzhou", "Shanghai", "Beijing", "Xiamen", "Singapore"]
+    }
   }
 }

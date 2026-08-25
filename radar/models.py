@@ -25,6 +25,12 @@ class Opportunity:
     eligibility: str = ""
     graduation_years: list[int] = field(default_factory=list)
     last_verified: str | None = None
+    track: str = "open_source"
+    employment_type: str = ""
+    role_family: str = ""
+    location: str = ""
+    work_mode: str = ""
+    seniority: str = ""
 
     @classmethod
     def from_dict(cls, raw: dict[str, Any]) -> "Opportunity":

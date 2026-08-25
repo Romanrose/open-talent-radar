@@ -1,0 +1,54 @@
+{
+  "last_reviewed": "2026-08-25",
+  "sources": [
+    {
+      "organization": "Tencent",
+      "name": "Tencent Careers",
+      "url": "https://jobs.tencent.com/",
+      "focus": ["campus", "internship", "AI", "cloud", "software engineering"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Alibaba",
+      "name": "Alibaba Campus Recruitment",
+      "url": "https://campus-talent.alibaba.com/campus/gov",
+      "focus": ["campus", "internship", "AI", "cloud", "software engineering"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Baidu",
+      "name": "Baidu Campus Recruitment",
+      "url": "https://talent.baidu.com/jobs/campus",
+      "focus": ["campus", "internship", "foundation models", "multimodal", "AI infrastructure"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "ByteDance",
+      "name": "ByteDance Seed Campus Recruitment",
+      "url": "https://seed.bytedance.com/en/seedearlycareer",
+      "focus": ["campus", "internship", "foundation models", "AI agents", "LLM infrastructure"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Huawei",
+      "name": "Huawei Campus Recruitment",
+      "url": "https://career.huawei.com/cn/campus-recruitment",
+      "focus": ["campus", "internship", "AI", "systems", "cloud", "MindSpore"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Meituan",
+      "name": "Meituan Campus Recruitment",
+      "url": "https://career.meituan.com/",
+      "focus": ["campus", "internship", "AI", "backend", "platform engineering"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "DiDi",
+      "name": "DiDi Campus and Internship Recruitment",
+      "url": "https://talent.didiglobal.com/",
+      "focus": ["campus", "internship", "AI", "autonomous driving", "platform engineering"],
+      "review_frequency_days": 7
+    }
+  ]
+}
