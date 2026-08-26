@@ -77,6 +77,20 @@
       "url": "https://www.utenet.com/recruit",
       "focus": ["Xiamen", "reinforcement learning", "LLM", "algorithm engineering"],
       "review_frequency_days": 7
+    },
+    {
+      "organization": "Amphenol AssembleTech",
+      "name": "Amphenol Official Careers",
+      "url": "https://www.amphenol-ast.com/v3/cn/careers_view.aspx?id=528",
+      "focus": ["Xiamen", "AI algorithms", "generative design", "3D graphics", "optimization"],
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "KRC Management Consulting",
+      "name": "KRC AI Developer Careers",
+      "url": "https://www.krc.com.cn/careers/ai-developer",
+      "focus": ["Xiamen", "LLM", "RAG", "AI agents", "backend engineering"],
+      "review_frequency_days": 14
     }
   ]
 }
