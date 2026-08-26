@@ -63,6 +63,20 @@
       "url": "https://www.veewo.com/careers-intern?lang=zh",
       "focus": ["Xiamen", "C++", "C#", "Unity", "software engineering"],
       "review_frequency_days": 14
+    },
+    {
+      "organization": "Unisound / Xiamen Yunzhixin",
+      "name": "Xiamen Yunzhixin Recruitment Listing",
+      "url": "https://www.xmsoft.com/pzt/fg/recruitEntDetail.html?parkCd=02&recruitId=8a8180828df42c8e018df449dd150158",
+      "focus": ["Xiamen", "LLM", "RAG", "AI agents", "distributed training"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Yuanting Technology",
+      "name": "Yuanting Official Careers",
+      "url": "https://www.utenet.com/recruit",
+      "focus": ["Xiamen", "reinforcement learning", "LLM", "algorithm engineering"],
+      "review_frequency_days": 7
     }
   ]
 }
