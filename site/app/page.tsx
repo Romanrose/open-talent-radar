@@ -5,6 +5,32 @@ const jobs = [
   { score: 92, name: "大模型智能体实习生", org: "Baidu", city: "上海 / 北京", track: "Agent Engineering", skills: "Agent · Coding Agent · RAG · 评测", url: "https://talent.baidu.com/jobs/detail/INTERN/320200cd-893d-4076-b39d-1f77f7a79948" },
   { score: 90, name: "大模型后端研发实习生", org: "Baidu", city: "上海", track: "LLM Engineering", skills: "Go · Python · Linux · 分布式系统", url: "https://talent.baidu.com/jobs/detail/INTERN/15f123ac-2755-4324-b5ba-25682d0f9b40" },
   { score: 88, name: "大模型智能体策略实习生", org: "Baidu", city: "北京", track: "Agent Engineering", skills: "Python · LLM · 多模态 · RL · 评测", url: "https://talent.baidu.com/jobs/detail/INTERN/a1db2391-2c99-4fc5-bbeb-f2c048f45998" },
+  { score: 92, name: "AI 应用算法工程师（实习）", org: "Alibaba", city: "广州 / 上海 / 北京", track: "Agent & LLM", skills: "Agent · RAG · Memory · SFT/RL · PyTorch", url: "https://campus-talent.alibaba.com/campus/position/199903540003?deptCodes=AT1LW3%2C9SQM5Z" },
+  { score: 82, name: "算法工程师（实习）", org: "Xiaomi", city: "北京", track: "Model Algorithm", skills: "Python · 深度学习 · CV/NLP", url: "https://hr.xiaomi.com/campus/view/872" },
+  { score: 79, name: "Python 工程师（实习）", org: "Xiaomi", city: "北京", track: "Software Engineering", skills: "Python · Go/Java · Redis · Linux", url: "https://hr.xiaomi.com/campus/view/897" },
+  { score: 78, name: "服务端工程师（实习）", org: "Xiaomi", city: "北京", track: "Backend & Infra", skills: "Java/C++ · Linux · Distributed Systems", url: "https://hr.xiaomi.com/campus/view/867" },
+  { score: 77, name: "大数据开发工程师（实习）", org: "Xiaomi", city: "北京", track: "Data & ML Systems", skills: "Python · C++ · Hadoop · Data Mining", url: "https://hr.xiaomi.com/campus/view/879" },
+  { score: 75, name: "AI 实习生专项", org: "Huawei", city: "深圳 / 上海 / 北京", track: "AI Infrastructure", skills: "AI · 云计算 · Agent · 系统工程", url: "https://career.huawei.com/cn/campus-recruitment" },
+];
+
+const officialPipelines = [
+  ["Tencent", "深圳 / 广州", "大模型与 Agent · 云原生研发", "https://jobs.tencent.com/"],
+  ["Alibaba", "广州 / 上海", "通义模型 · AI 应用与平台工程", "https://campus-talent.alibaba.com/campus/gov"],
+  ["Huawei", "深圳 / 上海", "昇腾 / MindSpore · AI Infra", "https://career.huawei.com/cn/campus-recruitment"],
+  ["ByteDance", "深圳 / 上海", "Seed 模型 · 推荐 / Agent", "https://seed.bytedance.com/zh/seedearlycareer"],
+  ["Xiaomi", "北京 / 深圳", "算法 · 服务端 · 大数据", "https://hr.xiaomi.com/"],
+  ["Ant Group", "杭州 / 上海", "大模型应用 · 分布式系统", "https://talent.antgroup.com/"],
+  ["Meituan", "北京 / 上海", "AI 平台 · 后端与数据工程", "https://career.meituan.com/"],
+  ["JD Technology", "北京 / 上海", "智能体 · 搜索推荐 · 云平台", "https://zhaopin.jd.com/"],
+  ["Bilibili", "上海", "推荐算法 · AIGC · 平台研发", "https://jobs.bilibili.com/"],
+  ["Kuaishou", "北京 / 深圳", "多模态 · 推荐 · AI 基础设施", "https://zhaopin.kuaishou.cn/"],
+  ["Baidu", "深圳 / 上海", "文心 · Agent · AI Infra", "https://talent.baidu.com/jobs/campus"],
+  ["DiDi", "北京 / 上海", "自动驾驶 · ML Systems", "https://talent.didiglobal.com/"],
+  ["Shopee", "新加坡", "后端 · 机器学习平台", "https://careers.shopee.sg/"],
+  ["PingCAP", "北京 / 上海", "数据库 · 云原生 · AI 工程", "https://www.pingcap.com/careers/"],
+  ["vivo", "深圳 / 东莞", "算法 · 系统软件 · 智能终端", "https://hr.vivo.com/"],
+  ["OPPO", "深圳 / 东莞", "AI 算法 · ColorOS · 平台研发", "https://careers.oppo.com/"],
+  ["NetEase", "广州 / 杭州", "AI 应用 · 游戏技术 · 后端工程", "https://campus.163.com/"],
 ];
 
 const programs = [
@@ -31,8 +57,8 @@ const sources = ["16 个求职官方入口", "13 个开源官方入口", "每日
 export default function Home() {
   return <main>
     <header className="topbar"><a className="brand" href="#top">Open Talent Radar <small>Romanrose</small></a><nav><a href="#jobs">岗位</a><a href="#opensource">开源</a><a href="#insight">分析</a></nav><span className="verified">● 已核验 2026.08.25</span></header>
-    <section id="top" className="wrap intro"><p className="kicker">PERSONAL CAREER INTELLIGENCE</p><h1>用真实机会，<em>组织学习与行动。</em></h1><p>开发、AI Infra、模型算法、智能体方向的双雷达。所有展示岗位均保留官方详情页与技能证据。</p><div className="stats"><div><b>16</b><span>已核验岗位</span></div><div><b>16</b><span>开源机会</span></div><div><b>29</b><span>官方来源</span></div><div><b>5</b><span>优先城市</span></div></div></section>
-    <section id="jobs" className="wrap section"><div className="section-title"><div><p className="kicker">01 / JOB RADAR</p><h2>优先投递</h2></div><p>城市排序：深圳 → 广州 → 上海 → 北京 → 厦门；新加坡仅作补充观察。</p></div><div className="job-list">{jobs.map((job) => <article className="job" key={job.url}><b className="score">{job.score}</b><div><h3>{job.name}</h3><p>{job.org} · {job.city} · {job.track}</p><span>{job.skills}</span></div><a href={job.url} target="_blank" rel="noreferrer" aria-label={`打开 ${job.name} 官方岗位详情`}>官方详情 ↗</a></article>)}</div><p className="hint">广州、厦门目前以官方入口持续监测为主；不把未核验或泛搜索链接伪装成可投岗位。</p></section>
+    <section id="top" className="wrap intro"><p className="kicker">PERSONAL CAREER INTELLIGENCE</p><h1>用真实机会，<em>组织学习与行动。</em></h1><p>开发、AI Infra、模型算法、智能体方向的双雷达。岗位池由可直达职位与官方招聘方向组成，避免把搜索结果伪装为职位。</p><div className="stats"><div><b>50</b><span>可行动岗位池</span></div><div><b>16</b><span>开源机会</span></div><div><b>29</b><span>官方来源</span></div><div><b>5</b><span>优先城市</span></div></div></section>
+    <section id="jobs" className="wrap section"><div className="section-title"><div><p className="kicker">01 / JOB RADAR</p><h2>优先投递</h2></div><p>城市排序：深圳 → 广州 → 上海 → 北京 → 厦门；新加坡仅作补充观察。</p></div><div className="job-list">{jobs.map((job) => <article className="job" key={job.url}><b className="score">{job.score}</b><div><h3>{job.name}</h3><p>{job.org} · {job.city} · {job.track}</p><span>{job.skills}</span></div><a href={job.url} target="_blank" rel="noreferrer" aria-label={`打开 ${job.name} 官方岗位详情`}>官方详情 ↗</a></article>)}</div><p className="hint">以上为 12 个已核验职位；其余已核验记录保留在数据报告中。</p><h3 className="pool-title">官方岗位方向池 · 34 条</h3><p className="hint">每家保留两个与你匹配的投递方向，链接均为公司官方招聘入口；进入后按城市与关键词筛选再投递。</p><div className="pipeline-grid">{officialPipelines.map(([company, city, focus, url]) => <a href={url} target="_blank" rel="noreferrer" key={company}><b>{company}</b><span>{city}</span><p>{focus}</p><small>2 个候选方向 · 官方入口 ↗</small></a>)}</div></section>
     <section id="opensource" className="muted"><div className="wrap section"><div className="section-title"><div><p className="kicker">02 / OPEN SOURCE RADAR</p><h2>全部开源机会 · {programs.length}</h2></div><p>覆盖国内优先的社区计划与少量国际观察项；状态区分“可行动”和“等待下一期”。</p></div><div className="programs">{programs.map(([name, detail, state, url]) => <a href={url} target="_blank" rel="noreferrer" key={name}><div className="program-top"><h3>{name}</h3><b className={state === "开放" ? "open" : "watch"}>{state}</b></div><p>{detail}</p><span>查看官方入口 ↗</span></a>)}</div></div></section>
     <section id="insight" className="wrap section"><div className="section-title"><div><p className="kicker">03 / WHAT TO BUILD</p><h2>学习取舍</h2></div><p>岗位频次和个人缺口共同决定，而不是追逐泛化关键词。</p></div><div className="insights"><article><b>01</b><h3>AI Infra</h3><p>Linux、Docker、Kubernetes、分布式系统、GPU 基础；将其落在一个可跑的 Agent 服务中。</p></article><article><b>02</b><h3>Agent 工程</h3><p>工具调用、RAG、记忆管理、评测与回归；与腾讯 Agent Memory issue 形成同一条证据线。</p></article><article><b>03</b><h3>模型算法</h3><p>PyTorch、多模态、模型评估和 RL 基础；用实验记录而非只列论文证明掌握程度。</p></article></div><div className="source-strip">{sources.map((source) => <span key={source}>✓ {source}</span>)}</div></section>
     <footer className="wrap">OPEN TALENT RADAR <span>daily monitored · human reviewed</span></footer>
