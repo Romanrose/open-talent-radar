@@ -4,7 +4,7 @@
 
 ## 覆盖概览
 
-- **求职岗位：25** 个；其中开放 24 个、需复核 1 个、观察 0 个。
+- **求职岗位：28** 个；其中开放 26 个、需复核 2 个、观察 0 个。
 - **开源机会：16** 个；导师制机会 13 个。
 - **职业目标**：开发、AI Infra、模型算法、智能体；城市优先级为 Shenzhen → Guangzhou → Shanghai → Beijing → Xiamen → Singapore。
 
@@ -16,18 +16,18 @@
 | 2 | Guangzhou | 0 | 保持官方入口监测，发现合适岗位后人工入库 |
 | 3 | Shanghai | 5 | 持续补充直达岗位页 |
 | 4 | Beijing | 13 | 持续补充直达岗位页 |
-| 5 | Xiamen | 9 | 持续补充直达岗位页 |
+| 5 | Xiamen | 12 | 持续补充直达岗位页 |
 | 6 | Singapore | 0 | 保持官方入口监测，发现合适岗位后人工入库 |
 
 ## 岗位方向分布
 
 | 方向 | 数量 |
 | --- | ---: |
+| Agent Engineering | 6 |
 | LLM Engineering | 5 |
+| Model Algorithm | 4 |
 | Software Engineering | 4 |
-| Agent Engineering | 4 |
 | AI Infrastructure | 4 |
-| Model Algorithm | 3 |
 | ML Systems | 2 |
 | Multimodal Learning | 2 |
 | AI Research | 1 |
@@ -36,18 +36,18 @@
 
 | 技术 | 出现次数 |
 | --- | ---: |
-| Python | 19 |
-| Model Evaluation | 14 |
-| LLM | 12 |
+| Python | 22 |
+| Model Evaluation | 15 |
+| LLM | 14 |
 | C++ | 11 |
+| AI Agents | 9 |
 | Deep Learning | 8 |
 | PyTorch | 8 |
 | Linux | 7 |
-| AI Agents | 7 |
 | Reinforcement Learning | 6 |
 | Multimodal Learning | 6 |
+| RAG | 5 |
 | Distributed Systems | 5 |
-| Go | 4 |
 
 ## 当前优先行动
 
