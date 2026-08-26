@@ -4,7 +4,7 @@
 
 ## 覆盖概览
 
-- **求职岗位：16** 个；其中开放 16 个、需复核 0 个、观察 0 个。
+- **求职岗位：23** 个；其中开放 23 个、需复核 0 个、观察 0 个。
 - **开源机会：16** 个；导师制机会 13 个。
 - **职业目标**：开发、AI Infra、模型算法、智能体；城市优先级为 Shenzhen → Guangzhou → Shanghai → Beijing → Xiamen → Singapore。
 
@@ -12,20 +12,22 @@
 
 | 优先级 | 城市 | 当前已核验岗位 | 行动建议 |
 | ---: | --- | ---: | --- |
-| 1 | Shenzhen | 4 | 持续补充直达岗位页 |
+| 1 | Shenzhen | 6 | 持续补充直达岗位页 |
 | 2 | Guangzhou | 0 | 保持官方入口监测，发现合适岗位后人工入库 |
 | 3 | Shanghai | 5 | 持续补充直达岗位页 |
 | 4 | Beijing | 12 | 持续补充直达岗位页 |
-| 5 | Xiamen | 0 | 保持官方入口监测，发现合适岗位后人工入库 |
+| 5 | Xiamen | 7 | 持续补充直达岗位页 |
 | 6 | Singapore | 0 | 保持官方入口监测，发现合适岗位后人工入库 |
 
 ## 岗位方向分布
 
 | 方向 | 数量 |
 | --- | ---: |
+| Software Engineering | 4 |
 | Agent Engineering | 4 |
 | LLM Engineering | 4 |
-| AI Infrastructure | 3 |
+| AI Infrastructure | 4 |
+| Model Algorithm | 2 |
 | ML Systems | 2 |
 | Multimodal Learning | 2 |
 | AI Research | 1 |
@@ -34,18 +36,18 @@
 
 | 技术 | 出现次数 |
 | --- | ---: |
-| Python | 15 |
-| Model Evaluation | 11 |
+| Python | 17 |
+| Model Evaluation | 13 |
+| C++ | 11 |
 | LLM | 10 |
+| Deep Learning | 8 |
 | PyTorch | 7 |
+| Linux | 6 |
 | AI Agents | 6 |
-| Deep Learning | 6 |
 | Multimodal Learning | 6 |
-| C++ | 6 |
 | Reinforcement Learning | 5 |
 | Distributed Systems | 4 |
 | Go | 4 |
-| Linux | 4 |
 
 ## 当前优先行动
 

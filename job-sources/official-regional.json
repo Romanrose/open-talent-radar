@@ -35,6 +35,34 @@
       "url": "https://careers.shopee.sg/",
       "focus": ["Singapore", "software engineering", "machine learning", "internship"],
       "review_frequency_days": 14
+    },
+    {
+      "organization": "Meitu",
+      "name": "Meitu Careers and MT Lab",
+      "url": "https://hr.meitu.com/en",
+      "focus": ["Xiamen", "multimodal", "AI agents", "graphics", "C++", "AI research"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "Aifly Intelligent Control",
+      "name": "Aifly Campus Recruitment",
+      "url": "https://www.aifly.cn/join",
+      "focus": ["Xiamen", "AI algorithms", "embedded systems", "software engineering"],
+      "review_frequency_days": 7
+    },
+    {
+      "organization": "CHIXM Software",
+      "name": "CHIXM Official Recruitment",
+      "url": "https://www.chixm.com/job/?sort=0&type=1",
+      "focus": ["Xiamen", "software engineering", "Java", "C++", "campus"],
+      "review_frequency_days": 14
+    },
+    {
+      "organization": "Veewo Games",
+      "name": "Veewo Internship Careers",
+      "url": "https://www.veewo.com/careers-intern?lang=zh",
+      "focus": ["Xiamen", "C++", "C#", "Unity", "software engineering"],
+      "review_frequency_days": 14
     }
   ]
 }
