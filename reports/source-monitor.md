@@ -1,6 +1,6 @@
 # Official source monitor
 
-Last checked: 2026-08-27T10:50:40+00:00
+Last checked: 2026-08-28T12:26:26+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
@@ -8,7 +8,7 @@ Last checked: 2026-08-27T10:50:40+00:00
 | [Casbin Talent 2026](https://github.com/casbin/Talent2026) | 200 | Yes | Review the official page if content changed. |
 | [Google Summer of Code](https://developers.google.com/open-source/gsoc) | 200 | No | Review the official page if content changed. |
 | [KDE Season of KDE](https://mentorship.kde.org/sok/) | 200 | No | Review the official page if content changed. |
-| [Korea Open Source Contribution Academy](https://www.contribution.ac/2026ossca) | 200 | Yes | Review the official page if content changed. |
+| [Korea Open Source Contribution Academy](https://www.contribution.ac/2026ossca) | 200 | No | Review the official page if content changed. |
 | [Linux Foundation LFX Mentorship](https://lfx.linuxfoundation.org/tools/mentorship/) | 200 | Yes | Review the official page if content changed. |
 | [MindSpore Open Source Internship](https://www.mindspore.cn/internship) | 200 | No | Review the official page if content changed. |
 | [NebulaGraph University and Community Practice](https://www.nebula-graph.com.cn/university) | 200 | No | Review the official page if content changed. |
