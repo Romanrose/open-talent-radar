@@ -1,6 +1,6 @@
 # Official source monitor
 
-Last checked: 2026-08-28T12:27:37+00:00
+Last checked: 2026-08-29T07:37:05+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
@@ -14,7 +14,7 @@ Last checked: 2026-08-28T12:27:37+00:00
 | [CNCF Mentorship](https://www.cncf.io/people/mentorship/) | 200 | Yes | Review the official page if content changed. |
 | [Outreachy Internships](https://www.outreachy.org/) | 200 | No | Review the official page if content changed. |
 | [PaddlePaddle Open Source Activities](https://www.paddlepaddle.org.cn/) | 200 | No | Review the official page if content changed. |
-| [openEuler Community](https://www.openeuler.org/zh/) | 200 | Yes | Review the official page if content changed. |
+| [openEuler Community](https://www.openeuler.org/zh/) | 200 | No | Review the official page if content changed. |
 | [Ant Group Open Source](https://opensource.antgroup.com/) | 200 | No | Review the official page if content changed. |
 | [Apache Projects and Community](https://www.apache.org/) | 200 | Yes | Review the official page if content changed. |
 
