@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "updated_at": "2026-08-29T07:35:49+00:00",
+  "updated_at": "2026-08-30T06:09:22+00:00",
   "sources": {
     "alibaba-youth-open-source-fund": {
       "name": "Youth Open Source Special Fund: Seed Program",
       "url": "https://developer.aliyun.com/article/1746947",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "65eb75486714bbf164d5d17a43727edf74d816a68f42f5d3de230a753690d9ef"
+      "content_hash": "97bd9b24155d339d7f56541c418a38d0a44a67c4458673b009585d42a7308361"
     },
     "casbin-talent": {
       "name": "Casbin Talent 2026",
       "url": "https://github.com/casbin/Talent2026",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "32fef039e8d1c4d4058bedce40d62c030f2cce606549f4a0e59fe9c0018839b3"
+      "content_hash": "6adea026b41cef77ffb88d144e3edac375572dfb4196c2d9fcbb15161f74ecb5"
     },
     "google-summer-of-code": {
       "name": "Google Summer of Code",
       "url": "https://developers.google.com/open-source/gsoc",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "6ffb6de0f8e05b001a8cc99b5549723b13b62771041d28e448ef4207194d9c05"
@@ -29,7 +29,7 @@
     "kde-season-of-kde": {
       "name": "KDE Season of KDE",
       "url": "https://mentorship.kde.org/sok/",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "a9779accfc2d4e5135184fb620d9edda1436208399ce45e2b892eac2123fc189"
@@ -37,23 +37,23 @@
     "korea-open-source-contribution-academy": {
       "name": "Korea Open Source Contribution Academy",
       "url": "https://www.contribution.ac/2026ossca",
-      "checked_at": "2026-08-29T07:35:49+00:00",
-      "changed": true,
+      "checked_at": "2026-08-30T06:09:22+00:00",
+      "changed": false,
       "http_status": 200,
       "content_hash": "5205d7e3eb9c0e644eca4fbf5d962d193d6aed52dae6cb2d2d18c2a578142af7"
     },
     "linux-foundation-lfx": {
       "name": "Linux Foundation LFX Mentorship",
       "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "0226195249b74c35d69ce34dc923c64a08b41c432c133c5cb6efee8633b4298e"
+      "content_hash": "a288c549c971ccca3f1b469faa3734d08e38e898558a79966b0275ac15fe6620"
     },
     "mindspore-internship": {
       "name": "MindSpore Open Source Internship",
       "url": "https://www.mindspore.cn/internship",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "22676e37f1261680b720113d52f293aeeb879f791e8981e67587bb089ee64159"
@@ -61,15 +61,15 @@
     "nebulagraph-university": {
       "name": "NebulaGraph University and Community Practice",
       "url": "https://www.nebula-graph.com.cn/university",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
-      "http_status": 200,
-      "content_hash": "384e279bb7c91aafcdd8b332f110dc6f6123f236e3b960c47f65dafaca9f986a"
+      "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+      "http_status": null
     },
     "oceanbase-ai-ecosystem": {
       "name": "OceanBase AI Ecosystem Internship",
       "url": "https://ask.oceanbase.com/t/topic/35645128",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "ef5fc5579f522bcacfd714370d62db9341f77894d153abd4dd49ba88048b06fa"
@@ -77,15 +77,15 @@
     "openatom-competition": {
       "name": "OpenAtom Open Source Competition 2026",
       "url": "https://competition.openatom.tech/",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "5ed00b30632afead89e46e8316235020f3179a495a994b7df7ca9bc47bf95143"
+      "content_hash": "ca97af1cae0cb2486f580ca17d6d70defc6403c77f1ee219d5351ae7094e36a5"
     },
     "opengauss-community": {
       "name": "openEuler & openGauss Community Internship",
       "url": "https://edu.hicomputing.huawei.com/openeuler-opengauss-talent",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "2e2ab3949efa0cba30a121bd06373278900f1d8c26f2d8b9632c0b6ef53a1a6a"
@@ -93,7 +93,7 @@
     "ospp": {
       "name": "Open Source Promotion Plan",
       "url": "https://summer-ospp.ac.cn/",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "b0f71e9d523e9cddcee82dec741bc6b9b4dfbbaebe06d8fba533db88f25d83b9"
@@ -101,7 +101,7 @@
     "outreachy": {
       "name": "Outreachy Open Source Internship",
       "url": "https://www.outreachy.org/",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "3c180f0b20674b6acd8a66d76c85363548ef979514568ca7340484af2fe38911"
@@ -109,7 +109,7 @@
     "paddle-hackathon": {
       "name": "PaddlePaddle Hackathon",
       "url": "https://www.paddlepaddle.org.cn/documentation/docs/zh/guides/10_contribution/hackathon_cn.html",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "65dccc59978f640b9cc22b47e71f3547ef85f02fb915fc97acbca3fa4317851f"
@@ -117,7 +117,7 @@
     "pingcap-tidb-talent-plan": {
       "name": "PingCAP TiDB Talent Plan",
       "url": "https://tidb.net/talent-plan",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "5b0e8713e429562cea5501a7d45d06655c5a970cea7261ebcf4e00c2dd626d57"
@@ -125,7 +125,7 @@
     "tencent-rhinobird": {
       "name": "Tencent Rhino-Bird Open Source Talent Program",
       "url": "https://opensource.tencent.com/summer-of-code",
-      "checked_at": "2026-08-29T07:35:49+00:00",
+      "checked_at": "2026-08-30T06:09:22+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "1e5b6c4a30632361aa15028917c4512335ce270214baea5ffa23f84c6be89165"
