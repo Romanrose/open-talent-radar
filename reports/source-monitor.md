@@ -1,6 +1,6 @@
 # Official source monitor
 
-Last checked: 2026-08-30T06:09:22+00:00
+Last checked: 2026-08-31T06:34:02+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
@@ -11,7 +11,7 @@ Last checked: 2026-08-30T06:09:22+00:00
 | [Korea Open Source Contribution Academy](https://www.contribution.ac/2026ossca) | 200 | No | Review the official page if content changed. |
 | [Linux Foundation LFX Mentorship](https://lfx.linuxfoundation.org/tools/mentorship/) | 200 | Yes | Review the official page if content changed. |
 | [MindSpore Open Source Internship](https://www.mindspore.cn/internship) | 200 | No | Review the official page if content changed. |
-| [NebulaGraph University and Community Practice](https://www.nebula-graph.com.cn/university) | None | No | <urlopen error _ssl.c:999: The handshake operation timed out> |
+| [NebulaGraph University and Community Practice](https://www.nebula-graph.com.cn/university) | 200 | No | Review the official page if content changed. |
 | [OceanBase AI Ecosystem Internship](https://ask.oceanbase.com/t/topic/35645128) | 200 | No | Review the official page if content changed. |
 | [OpenAtom Open Source Competition 2026](https://competition.openatom.tech/) | 200 | Yes | Review the official page if content changed. |
 | [openEuler & openGauss Community Internship](https://edu.hicomputing.huawei.com/openeuler-opengauss-talent) | 200 | No | Review the official page if content changed. |
