@@ -1,6 +1,6 @@
 # Official source monitor
 
-Last checked: 2026-09-02T05:21:44+00:00
+Last checked: 2026-09-03T05:25:15+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
@@ -15,7 +15,7 @@ Last checked: 2026-09-02T05:21:44+00:00
 | [OceanBase AI Ecosystem Internship](https://ask.oceanbase.com/t/topic/35645128) | 200 | No | Review the official page if content changed. |
 | [OpenAtom Open Source Competition 2026](https://competition.openatom.tech/) | 200 | Yes | Review the official page if content changed. |
 | [openEuler & openGauss Community Internship](https://edu.hicomputing.huawei.com/openeuler-opengauss-talent) | 200 | No | Review the official page if content changed. |
-| [Open Source Promotion Plan](https://summer-ospp.ac.cn/) | 200 | No | Review the official page if content changed. |
+| [Open Source Promotion Plan](https://summer-ospp.ac.cn/) | 200 | Yes | Review the official page if content changed. |
 | [Outreachy Open Source Internship](https://www.outreachy.org/) | 200 | No | Review the official page if content changed. |
 | [PaddlePaddle Hackathon](https://www.paddlepaddle.org.cn/documentation/docs/zh/guides/10_contribution/hackathon_cn.html) | 200 | No | Review the official page if content changed. |
 | [PingCAP TiDB Talent Plan](https://tidb.net/talent-plan) | 200 | No | Review the official page if content changed. |
