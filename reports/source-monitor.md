@@ -1,6 +1,6 @@
 # Official source monitor
 
-Last checked: 2026-09-04T05:22:24+00:00
+Last checked: 2026-09-05T05:11:40+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
@@ -19,6 +19,6 @@ Last checked: 2026-09-04T05:22:24+00:00
 | [Outreachy Open Source Internship](https://www.outreachy.org/) | 200 | No | Review the official page if content changed. |
 | [PaddlePaddle Hackathon](https://www.paddlepaddle.org.cn/documentation/docs/zh/guides/10_contribution/hackathon_cn.html) | 200 | No | Review the official page if content changed. |
 | [PingCAP TiDB Talent Plan](https://tidb.net/talent-plan) | 200 | Yes | Review the official page if content changed. |
-| [Tencent Rhino-Bird Open Source Talent Program](https://opensource.tencent.com/summer-of-code) | 200 | No | Review the official page if content changed. |
+| [Tencent Rhino-Bird Open Source Talent Program](https://opensource.tencent.com/summer-of-code) | 200 | Yes | Review the official page if content changed. |
 
 This monitor only detects page-level changes. It never creates or edits opportunity records without a human review.
