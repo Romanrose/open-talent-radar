@@ -1,10 +1,10 @@
 # Official source monitor
 
-Last checked: 2026-09-05T05:13:09+00:00
+Last checked: 2026-09-06T05:27:16+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
-| [Tencent Rhino-Bird Open Source Talent Program](https://opensource.tencent.com/summer-of-code) | 200 | Yes | Review the official page if content changed. |
+| [Tencent Rhino-Bird Open Source Talent Program](https://opensource.tencent.com/summer-of-code) | 200 | No | Review the official page if content changed. |
 | [MindSpore Open Source Internship](https://www.mindspore.cn/internship) | 200 | No | Review the official page if content changed. |
 | [Casbin Talent](https://github.com/apache/casbin-Talent2026) | 200 | Yes | Review the official page if content changed. |
 | [Open Source Promotion Plan](https://summer-ospp.ac.cn/) | 200 | No | Review the official page if content changed. |
