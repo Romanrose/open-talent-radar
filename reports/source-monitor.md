@@ -1,6 +1,6 @@
 # Official source monitor
 
-Last checked: 2026-09-10T05:29:53+00:00
+Last checked: 2026-09-11T05:33:07+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
@@ -8,9 +8,9 @@ Last checked: 2026-09-10T05:29:53+00:00
 | [Casbin Talent 2026](https://github.com/casbin/Talent2026) | 200 | Yes | Review the official page if content changed. |
 | [Google Summer of Code](https://developers.google.com/open-source/gsoc) | 200 | No | Review the official page if content changed. |
 | [KDE Season of KDE](https://mentorship.kde.org/sok/) | 200 | No | Review the official page if content changed. |
-| [Korea Open Source Contribution Academy](https://www.contribution.ac/2026ossca) | 200 | No | Review the official page if content changed. |
+| [Korea Open Source Contribution Academy](https://www.contribution.ac/2026ossca) | 200 | Yes | Review the official page if content changed. |
 | [Linux Foundation LFX Mentorship](https://lfx.linuxfoundation.org/tools/mentorship/) | 200 | Yes | Review the official page if content changed. |
-| [MindSpore Open Source Internship](https://www.mindspore.cn/internship) | 200 | No | Review the official page if content changed. |
+| [MindSpore Open Source Internship](https://www.mindspore.cn/internship) | 200 | Yes | Review the official page if content changed. |
 | [NebulaGraph University and Community Practice](https://www.nebula-graph.com.cn/university) | 200 | No | Review the official page if content changed. |
 | [OceanBase AI Ecosystem Internship](https://ask.oceanbase.com/t/topic/35645128) | 200 | No | Review the official page if content changed. |
 | [OpenAtom Open Source Competition 2026](https://competition.openatom.tech/) | 200 | Yes | Review the official page if content changed. |
