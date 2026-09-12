@@ -1,13 +1,13 @@
 # Official source monitor
 
-Last checked: 2026-09-11T05:33:38+00:00
+Last checked: 2026-09-12T05:19:45+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
 | [Tencent Careers](https://jobs.tencent.com/) | 200 | No | Review the official page if content changed. |
 | [Alibaba Campus Recruitment](https://campus-talent.alibaba.com/campus/gov) | 200 | No | Review the official page if content changed. |
 | [Baidu Campus Recruitment](https://talent.baidu.com/jobs/campus) | 200 | Yes | Review the official page if content changed. |
-| [ByteDance Seed Campus Recruitment](https://seed.bytedance.com/en/seedearlycareer) | 200 | Yes | Review the official page if content changed. |
+| [ByteDance Seed Campus Recruitment](https://seed.bytedance.com/en/seedearlycareer) | 200 | No | Review the official page if content changed. |
 | [Huawei Campus Recruitment](https://career.huawei.com/cn/campus-recruitment) | 200 | No | Review the official page if content changed. |
 | [Meituan Campus Recruitment](https://career.meituan.com/) | 200 | No | Review the official page if content changed. |
 | [DiDi Campus and Internship Recruitment](https://talent.didiglobal.com/) | 200 | No | Review the official page if content changed. |
@@ -23,7 +23,7 @@ Last checked: 2026-09-11T05:33:38+00:00
 | [Meitu Careers and MT Lab](https://hr.meitu.com/en) | 200 | Yes | Review the official page if content changed. |
 | [Aifly Campus Recruitment](https://www.aifly.cn/join) | 200 | No | Review the official page if content changed. |
 | [CHIXM Official Recruitment](https://www.chixm.com/job/?sort=0&type=1) | 200 | No | Review the official page if content changed. |
-| [Veewo Internship Careers](https://www.veewo.com/careers-intern?lang=zh) | 200 | No | Review the official page if content changed. |
+| [Veewo Internship Careers](https://www.veewo.com/careers-intern?lang=zh) | None | No | <urlopen error [Errno 104] Connection reset by peer> |
 | [Xiamen Yunzhixin Recruitment Listing](https://www.xmsoft.com/pzt/fg/recruitEntDetail.html?parkCd=02&recruitId=8a8180828df42c8e018df449dd150158) | 200 | No | Review the official page if content changed. |
 | [Yuanting Official Careers](https://www.utenet.com/recruit) | 200 | Yes | Review the official page if content changed. |
 | [Amphenol Official Careers](https://www.amphenol-ast.com/v3/cn/careers_view.aspx?id=528) | None | No | <urlopen error timed out> |
