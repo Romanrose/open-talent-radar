@@ -1,6 +1,6 @@
 # Official source monitor
 
-Last checked: 2026-09-13T05:35:44+00:00
+Last checked: 2026-09-14T05:40:44+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
@@ -12,7 +12,7 @@ Last checked: 2026-09-13T05:35:44+00:00
 | [Meituan Campus Recruitment](https://career.meituan.com/) | 200 | No | Review the official page if content changed. |
 | [DiDi Campus and Internship Recruitment](https://talent.didiglobal.com/) | 200 | No | Review the official page if content changed. |
 | [Google Careers](https://careers.google.com/jobs) | 200 | Yes | Review the official page if content changed. |
-| [Microsoft Early in Profession](https://careers.microsoft.com/v2/global/en/students) | 200 | Yes | Review the official page if content changed. |
+| [Microsoft Early in Profession](https://careers.microsoft.com/v2/global/en/students) | 200 | No | Review the official page if content changed. |
 | [NVIDIA University Recruiting](https://www.nvidia.com/en-gb/about-nvidia/university-recruiting/) | 200 | Yes | Review the official page if content changed. |
 | [Amazon Student Internships](https://www.amazon.jobs/content/en/career-programs/university/internships-for-students/) | 200 | Yes | Review the official page if content changed. |
 | [Tencent Shenzhen Careers](https://jobs.tencent.com/) | 200 | No | Review the official page if content changed. |
@@ -23,7 +23,7 @@ Last checked: 2026-09-13T05:35:44+00:00
 | [Meitu Careers and MT Lab](https://hr.meitu.com/en) | 200 | Yes | Review the official page if content changed. |
 | [Aifly Campus Recruitment](https://www.aifly.cn/join) | 200 | No | Review the official page if content changed. |
 | [CHIXM Official Recruitment](https://www.chixm.com/job/?sort=0&type=1) | 200 | No | Review the official page if content changed. |
-| [Veewo Internship Careers](https://www.veewo.com/careers-intern?lang=zh) | 200 | No | Review the official page if content changed. |
+| [Veewo Internship Careers](https://www.veewo.com/careers-intern?lang=zh) | 200 | Yes | Review the official page if content changed. |
 | [Xiamen Yunzhixin Recruitment Listing](https://www.xmsoft.com/pzt/fg/recruitEntDetail.html?parkCd=02&recruitId=8a8180828df42c8e018df449dd150158) | 200 | No | Review the official page if content changed. |
 | [Yuanting Official Careers](https://www.utenet.com/recruit) | 200 | Yes | Review the official page if content changed. |
 | [Amphenol Official Careers](https://www.amphenol-ast.com/v3/cn/careers_view.aspx?id=528) | None | No | <urlopen error timed out> |
