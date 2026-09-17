@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": "2026-09-16T05:36:13+00:00",
+  "updated_at": "2026-09-17T05:41:23+00:00",
   "sources": {
     "tencent open source-1": {
       "name": "Tencent Rhino-Bird Open Source Talent Program",
       "url": "https://opensource.tencent.com/summer-of-code",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "06576495e28e101fbaac9ed4430831c9fdfb84d38ad172aef5f653ccb603bd2e"
@@ -13,7 +13,7 @@
     "mindspore-2": {
       "name": "MindSpore Open Source Internship",
       "url": "https://www.mindspore.cn/internship",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "df98595d8c9e80047574470b9ad7cb5b6f789ef098f632cc691d2c8c8d4e08cc"
@@ -21,15 +21,15 @@
     "apache casbin-3": {
       "name": "Casbin Talent",
       "url": "https://github.com/apache/casbin-Talent2026",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "56fd207cea8922f6251daaccf29d0c2dae39d40bf14235436c5e7c4e1d6534cd"
+      "content_hash": "e12b638f39042dc491eee894d4a00541fadbabe0a6957ffceb4c375512c41805"
     },
     "open source promotion plan-4": {
       "name": "Open Source Promotion Plan",
       "url": "https://summer-ospp.ac.cn/",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "58f709675838561edc8a3a664943c479e7c96a67ce1cc4af78d6253a86adf274"
@@ -37,15 +37,15 @@
     "openatom foundation-5": {
       "name": "OpenAtom Open Source Competition",
       "url": "https://competition.openatom.tech/",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "f44e969c42638b70eed8b43195aea468548c607914e216bd0ea78ecd19e705fc"
+      "content_hash": "72be0dc398a2ff35d178c6670a773b4e9cdf8f081357bf3ae37513946fac3290"
     },
     "google-6": {
       "name": "Google Summer of Code",
       "url": "https://developers.google.com/open-source/gsoc",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "6ffb6de0f8e05b001a8cc99b5549723b13b62771041d28e448ef4207194d9c05"
@@ -53,23 +53,23 @@
     "linux foundation-7": {
       "name": "LFX Mentorship",
       "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "4650b23323b2d38ceacc0ac88d8f716ec981ff65e301b4a1faffe647372beb05"
+      "content_hash": "3de8afa25903c127a32df62db094843c741ed3bdcf4f455a2acaf51f1e5f1b71"
     },
     "cncf-8": {
       "name": "CNCF Mentorship",
       "url": "https://www.cncf.io/people/mentorship/",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "6725658c68ee476d40fa990ff1ff2c6e4c40af5545ae535977da5f38e93bbdf2"
+      "content_hash": "418bafc5d86a98113827a671900a0f491f9ea908a61d9b18670f75c57824ce2b"
     },
     "outreachy-9": {
       "name": "Outreachy Internships",
       "url": "https://www.outreachy.org/",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "3c180f0b20674b6acd8a66d76c85363548ef979514568ca7340484af2fe38911"
@@ -77,7 +77,7 @@
     "paddlepaddle-10": {
       "name": "PaddlePaddle Open Source Activities",
       "url": "https://www.paddlepaddle.org.cn/",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "1dea99e04a7bc23214a4dcb8203ea11c1c942091febf9a33149fc8fc1d16323a"
@@ -85,7 +85,7 @@
     "openeuler-11": {
       "name": "openEuler Community",
       "url": "https://www.openeuler.org/zh/",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "0522a9bfaba6d4903ae1fd09dc01a17e9266494ea37118f85e38a0a5c4beaaf8"
@@ -93,7 +93,7 @@
     "ant group open source-12": {
       "name": "Ant Group Open Source",
       "url": "https://opensource.antgroup.com/",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "627c5f715513fcb1cf6a8020b94f94abdc7d24c25af3898c23ccc7f8a729fa82"
@@ -101,7 +101,7 @@
     "apache software foundation-13": {
       "name": "Apache Projects and Community",
       "url": "https://www.apache.org/",
-      "checked_at": "2026-09-16T05:36:13+00:00",
+      "checked_at": "2026-09-17T05:41:23+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "32401fcfbfb0e278e67e18870a82d0b66c14b47b561e544fffeb099fb1aa4e07"
