@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T05:48:25+00:00",
+  "updated_at": "2026-09-22T05:45:58+00:00",
   "sources": {
     "tencent-1": {
       "name": "Tencent Careers",
       "url": "https://jobs.tencent.com/",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "ebf89d7e97795d14ab857865261ef2ca3b486174b62e29c7281be25e382993dd"
@@ -13,7 +13,7 @@
     "alibaba-2": {
       "name": "Alibaba Campus Recruitment",
       "url": "https://campus-talent.alibaba.com/campus/gov",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "7f96769ac1674b121a2a4f4db720dc211f9a2055227647af01b1732a7e3af6c4"
@@ -21,23 +21,23 @@
     "baidu-3": {
       "name": "Baidu Campus Recruitment",
       "url": "https://talent.baidu.com/jobs/campus",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "279d75cd07a1213ba37a88b7ed7d2699cd4342e4f8d484ce348eff28993b2038"
+      "content_hash": "3fe75d65f3cb3611cafe9b7b90ac3b73c6232ba832c9c11342ad57a7b9dd3edf"
     },
     "bytedance-4": {
       "name": "ByteDance Seed Campus Recruitment",
       "url": "https://seed.bytedance.com/en/seedearlycareer",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "a5982f1b39be93e9747bb7bb8c5b3786c44b981ee30da03bb8cd68e40919eff2"
+      "content_hash": "bea71f89c275c3c1d6367ea3adb9637c2ab82c36c1ee9bbe818d8e2334f01fd9"
     },
     "huawei-5": {
       "name": "Huawei Campus Recruitment",
       "url": "https://career.huawei.com/cn/campus-recruitment",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "37d4afaa52db8cc5486c1c6b44ce33448c4ea9962091408702755b0b57005831"
@@ -45,7 +45,7 @@
     "meituan-6": {
       "name": "Meituan Campus Recruitment",
       "url": "https://career.meituan.com/",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "846dd849476718dbc91e502dddc3aff244945f03bc729fa3e7e12831309b3d58"
@@ -53,7 +53,7 @@
     "didi-7": {
       "name": "DiDi Campus and Internship Recruitment",
       "url": "https://talent.didiglobal.com/",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "6577d7e8911d4906bb83e0041ff0c4a78aee82d0955fa13d9ff87abaf6dd1f36"
@@ -61,39 +61,39 @@
     "google-8": {
       "name": "Google Careers",
       "url": "https://careers.google.com/jobs",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "efd4a77b0fdd5d3673e53d168c208fb5a9e74d05e4a7a6377029e2067a21dc42"
+      "content_hash": "105cd776278aa41338abb419c1538940b8525bccde4e97837659dc2175ac2229"
     },
     "microsoft-9": {
       "name": "Microsoft Early in Profession",
       "url": "https://careers.microsoft.com/v2/global/en/students",
-      "checked_at": "2026-09-21T05:48:25+00:00",
-      "changed": false,
+      "checked_at": "2026-09-22T05:45:58+00:00",
+      "changed": true,
       "http_status": 200,
-      "content_hash": "75c254cdfa119e219f4c18e79b02e3817bf30d40701b74826bb88159e591490b"
+      "content_hash": "4f20ecf4c736ae0f0239c8fcdc4f2435245a7b6896682ffdb2efa541ee406977"
     },
     "nvidia-10": {
       "name": "NVIDIA University Recruiting",
       "url": "https://www.nvidia.com/en-gb/about-nvidia/university-recruiting/",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "a8d8cb74fa49d8c2766efdefbb45bf9392763586c5599345dcd887819b780f7b"
+      "content_hash": "b2b4de5805f8faeb87e4b8387ff54e7b82301ff50ee2fbb6270b4b9cbe2e0786"
     },
     "amazon-11": {
       "name": "Amazon Student Internships",
       "url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students/",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "e657f9d796d9f894fb77b0b0f58947a5fcefafb397468e814b9cd15323521e30"
+      "content_hash": "d4594882d4aea4a39bf4353edd9cfc17105af486678f34c1872b73f3accd35ac"
     },
     "tencent-12": {
       "name": "Tencent Shenzhen Careers",
       "url": "https://jobs.tencent.com/",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "ebf89d7e97795d14ab857865261ef2ca3b486174b62e29c7281be25e382993dd"
@@ -101,7 +101,7 @@
     "huawei-13": {
       "name": "Huawei Shenzhen Careers",
       "url": "https://career.huawei.com/cn/campus-recruitment",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "37d4afaa52db8cc5486c1c6b44ce33448c4ea9962091408702755b0b57005831"
@@ -109,7 +109,7 @@
     "alibaba-14": {
       "name": "Alibaba Guangzhou Campus Recruitment",
       "url": "https://campus-talent.alibaba.com/campus/gov",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "7f96769ac1674b121a2a4f4db720dc211f9a2055227647af01b1732a7e3af6c4"
@@ -117,7 +117,7 @@
     "xiaomi-15": {
       "name": "Xiaomi Careers",
       "url": "https://hr.xiaomi.com/",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "ea4805d5039bf2b8fd269ab2a9e64bb568eb702ca85cd3256a5ad565502fde4a"
@@ -125,7 +125,7 @@
     "shopee-16": {
       "name": "Shopee Careers Singapore",
       "url": "https://careers.shopee.sg/",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "ea09996c5b319191c8910508dead256cffbeecbccba7f40a358016977228e684"
@@ -133,15 +133,15 @@
     "meitu-17": {
       "name": "Meitu Careers and MT Lab",
       "url": "https://hr.meitu.com/en",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "a96e8e52c156d597fc15968324721324fc4bf3dceeffa762e1813addfb382184"
+      "content_hash": "0b88b248a2be4acf55b7a6af1514ead82a9e2963a6c432bd9af39137c54df212"
     },
     "aifly intelligent control-18": {
       "name": "Aifly Campus Recruitment",
       "url": "https://www.aifly.cn/join",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "37422e6297f04e75c6b70cbd94b6333ab6a19a069d70f0f1b9ffeba672b3dd7b"
@@ -149,7 +149,7 @@
     "chixm software-19": {
       "name": "CHIXM Official Recruitment",
       "url": "https://www.chixm.com/job/?sort=0&type=1",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "10076d77b2eeb23851127be769a788d558e3d389a71ff3e5342b01a0f9e823c5"
@@ -157,15 +157,15 @@
     "veewo games-20": {
       "name": "Veewo Internship Careers",
       "url": "https://www.veewo.com/careers-intern?lang=zh",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "a880f3c2515fe451c576f373de518dda9471a2e8589388bad2ac83253bc81bab"
+      "content_hash": "9a92ded5bb0caaead4b05bc565644fde238b1718294108e6271c6c1804365bde"
     },
     "unisound / xiamen yunzhixin-21": {
       "name": "Xiamen Yunzhixin Recruitment Listing",
       "url": "https://www.xmsoft.com/pzt/fg/recruitEntDetail.html?parkCd=02&recruitId=8a8180828df42c8e018df449dd150158",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "ca3bb5871b9ba1ef4433295e231a385400ec919de0bd2a8c2f20df7ea4e4dcf7"
@@ -173,15 +173,15 @@
     "yuanting technology-22": {
       "name": "Yuanting Official Careers",
       "url": "https://www.utenet.com/recruit",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": true,
       "http_status": 200,
-      "content_hash": "23623384b7df7e55293c746dc89f7ca3a6e8a0f822af82eef520ad618996e2eb"
+      "content_hash": "d89027a2eba9fcbfd4426a737e48e5f4c472e0a3595ee0cffffb26f630ee9d20"
     },
     "amphenol assembletech-23": {
       "name": "Amphenol Official Careers",
       "url": "https://www.amphenol-ast.com/v3/cn/careers_view.aspx?id=528",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "error": "<urlopen error timed out>",
       "http_status": null
@@ -189,7 +189,7 @@
     "krc management consulting-24": {
       "name": "KRC AI Developer Careers",
       "url": "https://www.krc.com.cn/careers/ai-developer",
-      "checked_at": "2026-09-21T05:48:25+00:00",
+      "checked_at": "2026-09-22T05:45:58+00:00",
       "changed": false,
       "http_status": 200,
       "content_hash": "65c4dbbc2b078728563be4766beafaa95fa1684c0698a912ec02b5760ce05942"
