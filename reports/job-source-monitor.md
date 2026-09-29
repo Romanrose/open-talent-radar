@@ -1,6 +1,6 @@
 # Official source monitor
 
-Last checked: 2026-09-28T06:15:44+00:00
+Last checked: 2026-09-29T06:32:00+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
@@ -18,7 +18,7 @@ Last checked: 2026-09-28T06:15:44+00:00
 | [Tencent Shenzhen Careers](https://jobs.tencent.com/) | 200 | No | Review the official page if content changed. |
 | [Huawei Shenzhen Careers](https://career.huawei.com/cn/campus-recruitment) | 200 | No | Review the official page if content changed. |
 | [Alibaba Guangzhou Campus Recruitment](https://campus-talent.alibaba.com/campus/gov) | 200 | No | Review the official page if content changed. |
-| [Xiaomi Careers](https://hr.xiaomi.com/) | None | No | <urlopen error _ssl.c:999: The handshake operation timed out> |
+| [Xiaomi Careers](https://hr.xiaomi.com/) | 200 | No | Review the official page if content changed. |
 | [Shopee Careers Singapore](https://careers.shopee.sg/) | 200 | No | Review the official page if content changed. |
 | [Meitu Careers and MT Lab](https://hr.meitu.com/en) | 200 | Yes | Review the official page if content changed. |
 | [Aifly Campus Recruitment](https://www.aifly.cn/join) | 200 | No | Review the official page if content changed. |
