@@ -1,13 +1,13 @@
 # Official source monitor
 
-Last checked: 2026-09-29T06:32:00+00:00
+Last checked: 2026-09-30T06:15:07+00:00
 
 | Source | HTTP | Changed | Review note |
 | --- | ---: | :---: | --- |
 | [Tencent Careers](https://jobs.tencent.com/) | 200 | No | Review the official page if content changed. |
 | [Alibaba Campus Recruitment](https://campus-talent.alibaba.com/campus/gov) | 200 | No | Review the official page if content changed. |
 | [Baidu Campus Recruitment](https://talent.baidu.com/jobs/campus) | 200 | Yes | Review the official page if content changed. |
-| [ByteDance Seed Campus Recruitment](https://seed.bytedance.com/en/seedearlycareer) | 200 | Yes | Review the official page if content changed. |
+| [ByteDance Seed Campus Recruitment](https://seed.bytedance.com/en/seedearlycareer) | 200 | No | Review the official page if content changed. |
 | [Huawei Campus Recruitment](https://career.huawei.com/cn/campus-recruitment) | 200 | No | Review the official page if content changed. |
 | [Meituan Campus Recruitment](https://career.meituan.com/) | 200 | No | Review the official page if content changed. |
 | [DiDi Campus and Internship Recruitment](https://talent.didiglobal.com/) | 200 | No | Review the official page if content changed. |
